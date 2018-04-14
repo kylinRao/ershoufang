@@ -8,15 +8,16 @@ import os
 import sqlite3
 
 from datetime import datetime
-
+from conf.logControl import logControl
 from db.dbInit import conn
 
 
 class ErshoufangPipeline(object):
+    logger = logControl.getLogger()
     DATABASE = os.path.join(os.path.dirname(__file__), 'ershoufang.db')
 
     def process_item(self, item, spider):
-        print("************this is process_item running *********")
+        self.logger.info("#############process_item start###############")
 
         sqlHouseBaseInfo = u"replace into houseBaseInfo (houseCode,url,visited,region,area,attention,sourceId) values ('{houseCode}','{url}','{visited}','{region}','{area}','{attention}','{sourceId}')";
         sqlHouseEveryDayPrice = u"replace into houseEveryDayPrice (houseCode,date,totalPrice,unitPrice,updateTime) values ('{houseCode}','{date}','{totalPrice}','{unitPrice}','{updateTime}')";
@@ -63,5 +64,6 @@ class ErshoufangPipeline(object):
         conn.execute(sqlHouseDetailInfoF)
         conn.commit();
 
-        print("**********************inset into sql ok********************")
+
+        self.logger.info("**********************inset into sql ok********************")
         return item

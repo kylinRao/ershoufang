@@ -1,22 +1,29 @@
 # -*- coding: utf-8 -*-
+import string
+
 import scrapy
 import re
 import os
-import logging
-# LOG_FILENAME = '/Volumes/Mac/projects/pycharmProjects/ershoufang/logging_example.out'
-LOG_FILENAME = os.path.join(os.path.dirname(__file__),"logging_example.out")
-logging.basicConfig(filename=LOG_FILENAME,level=logging.DEBUG,)
+from ershoufang.conf.logControl import logControl
+
 from scrapy import Selector
 
 from ershoufang.items import ErshoufangItem
 
 
+
+
 class ershoufangSpider(scrapy.Spider):
+    urlPre = "http://nj.lianjia.com/ershoufang/"
+    area = ["jianye/","qinhuai/","xuanwu/","yuhuatai/","qixia/","jiangning/","pukou/","liuhe/","lishui/","gaochun/"]
+    # area = ["gulou/"]
+    isLiftEnable = ["ie1/","ie2/"]
+    logger = logControl.getLogger()
     name = "ershoufang"
-    # start_urls = ["http://bj.lianjia.com/ershoufang/dongcheng/pg1", "http://bj.lianjia.com/ershoufang/xicheng/pg1", "http://bj.lianjia.com/ershoufang/chaoyang/pg1", "http://bj.lianjia.com/ershoufang/haidian/pg1", "http://bj.lianjia.com/ershoufang/fengtai/pg1", "http://bj.lianjia.com/ershoufang/shijingshan/pg1", "http://bj.lianjia.com/ershoufang/tongzhou/pg1", "http://bj.lianjia.com/ershoufang/changping/pg1", "http://bj.lianjia.com/ershoufang/daxing/pg1", "http://bj.lianjia.com/ershoufang/yizhuangkaifaqu/pg1", "http://bj.lianjia.com/ershoufang/shunyi/pg1", "http://bj.lianjia.com/ershoufang/fangshan/pg1", "http://bj.lianjia.com/ershoufang/mentougou/pg1", "http://bj.lianjia.com/ershoufang/pinggu/pg1", "http://bj.lianjia.com/ershoufang/huairou/pg1", "http://bj.lianjia.com/ershoufang/miyun/pg1", "http://bj.lianjia.com/ershoufang/yanqing/pg1", "http://bj.lianjia.com/ershoufang/yanjiao/pg1"]
-    start_urls = ["http://nj.lianjia.com/ershoufang/pg1"]
+    start_urls = [urlPre+a+i for a in area for i in isLiftEnable];
+    start_urls.append("http://nj.lianjia.com/ershoufang/ie2/")
     item = ErshoufangItem()
-    page = 30
+    page = 1
     def parse(self, response):
 
         houses = response.xpath(".//ul[@class='sellListContent']/li")
@@ -30,37 +37,33 @@ class ershoufangSpider(scrapy.Spider):
                     publishday = u'{days}'.format(days = int(number)*30)
 
                 elif u'年' in house.xpath(".//div[@class='followInfo']/text()").extract()[0].split('/')[2]:
-                    # number = house.xpath(".//div[@class='followInfo']/text()").re("\d+")[2]
+
                     publishday = '365'
                 else:
                     publishday = house.xpath(".//div[@class='followInfo']/text()").re("\d+")[2]
-                url = house.xpath(".//a[@class='img ']/@href").extract();
-                # print("------the url is {url}".format(url=url))
+                url = house.xpath(".//a[@class='img ']/@href").extract()[0];
 
-                yield scrapy.Request(url[0], callback=self.parse_item)
-
+                self.logger.debug("------the url is {url}".format(url=url))
+                yield scrapy.Request(url, callback=self.parse_item)
             except:
-                logging.exception('Got exception on main handler')
                 print "These are some ecxeptions"
             else:
                 pass
+        self.logger.info('****************fuck01******************')
+        page = response.xpath("//div[@class='page-box house-lst-page-box'][@page-data]").xpath('@page-data').re("\d+")
 
-
-        # page = response.xpath("//div[@class='page-box house-lst-page-box'][@page-data]").re("\d+")
-
-        totalNum = int(response.xpath("//h2[@class='total fl']/span/text()").extract()[0].rstrip().lstrip())
-        totalPages =  totalNum//30
-        print("------the totalPages is {totalPages}".format(totalPages=totalPages))
-        logging.info('****************wo have got page num:{totalPages}******************'.format(totalPages=totalPages))
-        p = re.compile(r'[^\d]+')
-        if self.page < totalPages+1:
-            self.page = self.page +1
-            next_page = p.match(response.url).group()+str(self.page)+r'/'
-
-            logging.debug('****************next page is :{next_page}******************'.format(next_page=next_page))
-            next_page = response.urljoin(next_page)
-            print("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            yield scrapy.Request(next_page, callback=self.parse)
+        p = re.compile(r'.*ie[1-2]')
+        self.logger.info('****************fuck02******************')
+        self.logger.info('****************{page0}****{page1}****{small}**********'.format(page0=page[0],page1=page[1],small=min(int(page[0]),int(page[1]))))
+        if len(page) > 1 and page[0] != page[1]:
+            self.logger.info('****************fuck03******************')
+            # nextPage = response.url.rstrip('/').rstrip(string.digits).rstrip("pg")+'pg'+(page[0]+1)
+            nextPage = "{urlhead}/pg{urltail}".format(urlhead=p.match(response.url).group(),urltail=int(min(int(page[0]),int(page[1])))+1)
+            self.logger.info('****************fuck04******************')
+        self.logger.info('****************wo have got nextPage:{nextPage}******************'.format(nextPage=nextPage))
+        self.logger.info('****************next page is :{next_page}******************'.format(next_page=nextPage))
+        # nextPage = response.urljoin(nextPage)
+        yield scrapy.Request(nextPage, callback=self.parse)
 
     def parse_item(self, response):
         area = response.xpath("//div[@class='areaName']/span[@class='info']/a[1]/text()").extract()[0];
@@ -122,8 +125,6 @@ class ershoufangSpider(scrapy.Spider):
             "//div[@class='transaction']/div[@class='content']/ul/li[7]/span[2]/text()").extract()[0].lstrip().rstrip();
         self.item['tradeHouseBookMsg'] = response.xpath(
             "//div[@class='transaction']/div[@class='content']/ul/li[8]/span[2]/text()").extract()[0]
-
-
-        # print("---------this is item now:{item}".format(item=self.item))
+        # self.logger.debug("---------this is item now:{item}".format(item=self.item))
         yield self.item
         self.item.clear()
