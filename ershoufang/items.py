@@ -10,6 +10,8 @@ import scrapy
 
 class ErshoufangItem(scrapy.Item):
     # define the fields for your item here like:
+    currentPage = scrapy.Field()
+
     url = scrapy.Field()
     title = scrapy.Field()
     region = scrapy.Field()
@@ -20,7 +22,7 @@ class ErshoufangItem(scrapy.Item):
     visited = scrapy.Field()
     attention = scrapy.Field()
     unitPrice = scrapy.Field()
-    # recordTime = scrapy.Field()
+
     area = scrapy.Field()
 
     # 房屋基本信息
