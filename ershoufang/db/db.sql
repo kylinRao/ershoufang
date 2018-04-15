@@ -2,7 +2,7 @@
 DROP TABLE IF EXISTS houseBaseInfo;
 CREATE TABLE houseBaseInfo(
 id INTEGER PRIMARY KEY AUTOINCREMENT,
-houseId INT UNIQUE ,
+houseCode INT UNIQUE ,
 houseInfo TEXT,-- 房屋的基本信息
 publishday INT DEFAULT 0,----一共发布了多少天
 url TEXT,----详情连接地址
@@ -10,7 +10,7 @@ visited int,--当前共计多少访问量
 region TEXT,-- 地区分布
 area TEXT,---分区，如鼓楼，等
 attention INT ,--   关注度
-sourcId int---数据来自于哪个房产交易所
+sourceId int---数据来自于哪个房产交易所
 );
 DROP TABLE IF EXISTS houseSource;
 CREATE TABLE houseSource(
