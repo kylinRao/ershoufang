@@ -11,11 +11,11 @@ import string
 import scrapy
 import re
 import os
-from ershoufangnj.conf.logControl import logControl
+from ershoufang.conf.logControl import logControl
 
 from scrapy import Selector
 
-from ershoufangnj.items import ErshoufangItem
+from ershoufang.items import ErshoufangItem
 from scrapy_redis.spiders import RedisSpider
 
 
