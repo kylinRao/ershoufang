@@ -1,29 +1,35 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    : 2018/5/1 21:20
+# @Author  : Aries
+# @Site    : 
+# @File    : ershoufangnj.py
+# @Software: PyCharm
 # -*- coding: utf-8 -*-
 import string
 
 import scrapy
 import re
 import os
-from ershoufang.conf.logControl import logControl
+from ershoufangnj.conf.logControl import logControl
 
 from scrapy import Selector
 
-from ershoufang.items import ErshoufangItem
+from ershoufangnj.items import ErshoufangItem
+from scrapy_redis.spiders import RedisSpider
 
 
 
-
-class ershoufangSpider(scrapy.Spider):
-    urlPre = "http://nj.lianjia.com/ershoufang/"
-    area = ["jianye/","qinhuai/","xuanwu/","yuhuatai/","qixia/","jiangning/","pukou/","liuhe/","lishui/","gaochun/"]
-    # area = ["gulou/"]
-    isLiftEnable = ["ie1/","ie2/"]
-    logger = logControl.getLogger()
+class ershoufangSpider(RedisSpider):
     name = "ershoufang"
-    start_urls = [urlPre+a+i for a in area for i in isLiftEnable];
-    start_urls.append("http://nj.lianjia.com/ershoufang/ie2/")
+    redis_key = 'myspider:start_urls'
     item = ErshoufangItem()
     page = 1
+    def __init__(self, *args, **kwargs):
+        # Dynamically define the allowed domains list.
+        domain = kwargs.pop('domain', '')
+        self.allowed_domains = filter(None, domain.split(','))
+        super(ershoufangSpider, self).__init__(*args, **kwargs)
     def parse(self, response):
 
         houses = response.xpath(".//ul[@class='sellListContent']/li")
