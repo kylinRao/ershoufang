@@ -125,9 +125,10 @@ PROXIES = [
     {'ip_port': '61.191.173.31:808', 'user_pass': ''},
 ]
 
-# SCHEDULER = "scrapy_redis.scheduler.Scheduler"
-# SCHEDULER_PERSIST = True
-# SCHEDULER_QUEUE_CLASS = 'scrapy_redis.queue.SpiderPriorityQueue'
+SCHEDULER = "scrapy_redis.scheduler.Scheduler"
+DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
+SCHEDULER_PERSIST = True
+SCHEDULER_QUEUE_CLASS = 'scrapy_redis.queue.SpiderPriorityQueue'
 # REDIS_URL = None # 一般情况可以省去
-# REDIS_HOST = '192.168.1.112' # 也可以根据情况改成 localhost
-# REDIS_PORT = 6379
+REDIS_HOST = '192.168.1.112' # 也可以根据情况改成 localhost
+REDIS_PORT = 6379
