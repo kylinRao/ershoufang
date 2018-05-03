@@ -21,7 +21,7 @@ class ErshoufangPipeline(object):
 
 
     def process_item(self, item, spider):
-        self.items.append(item)
+
 
         self.logger.info("#############process_item start###############")
 
