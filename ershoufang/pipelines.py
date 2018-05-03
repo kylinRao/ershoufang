@@ -60,9 +60,9 @@ class ErshoufangPipeline(object):
                                                         tradeHouseRightOwnType=item['tradeHouseRightOwnType'],
                                                         tradeGurantyMsg=item['tradeGurantyMsg'],
                                                         tradeHouseBookMsg=item['tradeHouseBookMsg'])
-        print(sqlHouseEveryDayPriceF)
+        self.logger.info(sqlHouseEveryDayPriceF)
         # print(sqlHouseBaseInfoF)
-        print(sqlHouseDetailInfoF)
+        self.logger.info(sqlHouseDetailInfoF)
         c = conn.cursor();
         c.execute(sqlHouseEveryDayPriceF)
         # c.execute(sqlHouseBaseInfoF)
