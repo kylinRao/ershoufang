@@ -96,7 +96,7 @@ class ershoufangSpider(RedisSpider):
         item['totalPrice'] = response.xpath("//span[@class='total']/text()").extract()[0];
         item['url'] = response.url;
         item['houseCode'] = response.xpath("//div[@class='houseRecord']/span[2]/text()").extract()[0];
-        print item
+        # print item
 # 房屋详细信息
         item['houseNumType'] = response.xpath("//div[@class='base']/div[@class='content']/ul/li[1]/text()").extract()[0];
         item['houseHeight'] = response.xpath("//div[@class='base']/div[@class='content']/ul/li[2]/text()").extract()[0];
