@@ -14,15 +14,18 @@ from db.dbInit import conn
 
 class ErshoufangPipeline(object):
     logger = logControl.getLogger()
-    # DATABASE = os.path.join(os.path.dirname(__file__), 'ershoufang.db')
-    # DATABASE = r"D:\projects\github\rentPhoneServerManager\db\house.db";
+
+    # sqlHouseBaseInfo = u"replace into houseBaseInfo (houseCode,url,visited,region,area,attention,sourceId) values ('{houseCode}','{url}','{visited}','{region}','{area}','{attention}','{sourceId}')";
+    sqlHouseEveryDayPrice = u"replace into houseEveryDayPrice (houseCode,updateDay,totalPrice,unitPrice,updateTime) values ('{houseCode}','{date}','{totalPrice}','{unitPrice}','{updateTime}')";
+    sqlHouseDetailInfo = u"replace into houseDetailInfo (houseCode,updateDay,houseNumType,houseHeight,houseBigSquare,houseInnerSquare,houseStuctType,houseDirctionType,houseStuctMaterialType,houseDecrateType,houseIsWithLift,houseRightYear,tradeOnlineTime,tradeRightType,tradeLastTime,tradeUseType,tradeLostTime,tradeHouseRightOwnType,tradeGurantyMsg,tradeHouseBookMsg) values ('{houseId}','{date}','{houseNumType}','{houseHeight}','{houseBigSquare}','{houseInnerSquare}','{houseStuctType}','{houseDirctionType}','{houseStuctMaterialType}','{houseDecrateType}','{houseIsWithLift}','{houseRightYear}','{tradeOnlineTime}','{tradeRightType}','{tradeLastTime}','{tradeUseType}','{tradeLostTime}','{tradeHouseRightOwnType}','{tradeGurantyMsg}','{tradeHouseBookMsg}')"
+
 
     def process_item(self, item, spider):
+        self.items.append(item)
+
         self.logger.info("#############process_item start###############")
 
-        # sqlHouseBaseInfo = u"replace into houseBaseInfo (houseCode,url,visited,region,area,attention,sourceId) values ('{houseCode}','{url}','{visited}','{region}','{area}','{attention}','{sourceId}')";
-        sqlHouseEveryDayPrice = u"replace into houseEveryDayPrice (houseCode,updateDay,totalPrice,unitPrice,updateTime) values ('{houseCode}','{date}','{totalPrice}','{unitPrice}','{updateTime}')";
-        sqlHouseDetailInfo = u"replace into houseDetailInfo (houseCode,updateDay,houseNumType,houseHeight,houseBigSquare,houseInnerSquare,houseStuctType,houseDirctionType,houseStuctMaterialType,houseDecrateType,houseIsWithLift,houseRightYear,tradeOnlineTime,tradeRightType,tradeLastTime,tradeUseType,tradeLostTime,tradeHouseRightOwnType,tradeGurantyMsg,tradeHouseBookMsg) values ('{houseId}','{date}','{houseNumType}','{houseHeight}','{houseBigSquare}','{houseInnerSquare}','{houseStuctType}','{houseDirctionType}','{houseStuctMaterialType}','{houseDecrateType}','{houseIsWithLift}','{houseRightYear}','{tradeOnlineTime}','{tradeRightType}','{tradeLastTime}','{tradeUseType}','{tradeLostTime}','{tradeHouseRightOwnType}','{tradeGurantyMsg}','{tradeHouseBookMsg}')"
+
         self.logger.info("#############preparing sql statements###############")
         # sqlHouseBaseInfoF = sqlHouseBaseInfo.format(houseCode=item['houseCode'],
         #
@@ -33,12 +36,12 @@ class ErshoufangPipeline(object):
         #                                             attention=item['attention'],
         #                                             sourceId=item['sourceId']
         #                                             )
-        sqlHouseEveryDayPriceF = sqlHouseEveryDayPrice.format(houseCode=item['houseCode'],
+        sqlHouseEveryDayPriceF = self.sqlHouseEveryDayPrice.format(houseCode=item['houseCode'],
                                                               date=datetime.now().date(),
                                                               totalPrice=item['totalPrice'],
                                                               unitPrice=item['unitPrice'],
                                                               updateTime=datetime.now())
-        sqlHouseDetailInfoF = sqlHouseDetailInfo.format(houseId=item['houseCode'], date=datetime.now().date(),
+        sqlHouseDetailInfoF = self.sqlHouseDetailInfo.format(houseId=item['houseCode'], date=datetime.now().date(),
                                                         houseNumType=item['houseNumType'],
                                                         houseHeight=item['houseHeight'],
                                                         houseBigSquare=item['houseBigSquare'],
