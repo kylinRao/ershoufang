@@ -15,23 +15,24 @@ from db.dbInit import conn
 class ErshoufangPipeline(object):
     logger = logControl.getLogger()
     # DATABASE = os.path.join(os.path.dirname(__file__), 'ershoufang.db')
-    DATABASE = r"D:\projects\github\rentPhoneServerManager\db\house.db";
+    # DATABASE = r"D:\projects\github\rentPhoneServerManager\db\house.db";
 
     def process_item(self, item, spider):
         self.logger.info("#############process_item start###############")
 
-        sqlHouseBaseInfo = u"replace into houseBaseInfo (houseCode,url,visited,region,area,attention,sourceId) values ('{houseCode}','{url}','{visited}','{region}','{area}','{attention}','{sourceId}')";
+        # sqlHouseBaseInfo = u"replace into houseBaseInfo (houseCode,url,visited,region,area,attention,sourceId) values ('{houseCode}','{url}','{visited}','{region}','{area}','{attention}','{sourceId}')";
         sqlHouseEveryDayPrice = u"replace into houseEveryDayPrice (houseCode,updateDay,totalPrice,unitPrice,updateTime) values ('{houseCode}','{date}','{totalPrice}','{unitPrice}','{updateTime}')";
         sqlHouseDetailInfo = u"replace into houseDetailInfo (houseCode,updateDay,houseNumType,houseHeight,houseBigSquare,houseInnerSquare,houseStuctType,houseDirctionType,houseStuctMaterialType,houseDecrateType,houseIsWithLift,houseRightYear,tradeOnlineTime,tradeRightType,tradeLastTime,tradeUseType,tradeLostTime,tradeHouseRightOwnType,tradeGurantyMsg,tradeHouseBookMsg) values ('{houseId}','{date}','{houseNumType}','{houseHeight}','{houseBigSquare}','{houseInnerSquare}','{houseStuctType}','{houseDirctionType}','{houseStuctMaterialType}','{houseDecrateType}','{houseIsWithLift}','{houseRightYear}','{tradeOnlineTime}','{tradeRightType}','{tradeLastTime}','{tradeUseType}','{tradeLostTime}','{tradeHouseRightOwnType}','{tradeGurantyMsg}','{tradeHouseBookMsg}')"
-        sqlHouseBaseInfoF = sqlHouseBaseInfo.format(houseCode=item['houseCode'],
-
-                                                    url=item['url'],
-                                                    visited=item['visited'],
-                                                    region=item['region'],
-                                                    area=item['area'],
-                                                    attention=item['attention'],
-                                                    sourceId=item['sourceId']
-                                                    )
+        self.logger.info("#############preparing sql statements###############")
+        # sqlHouseBaseInfoF = sqlHouseBaseInfo.format(houseCode=item['houseCode'],
+        #
+        #                                             url=item['url'],
+        #                                             visited=item['visited'],
+        #                                             region=item['region'],
+        #                                             area=item['area'],
+        #                                             attention=item['attention'],
+        #                                             sourceId=item['sourceId']
+        #                                             )
         sqlHouseEveryDayPriceF = sqlHouseEveryDayPrice.format(houseCode=item['houseCode'],
                                                               date=datetime.now().date(),
                                                               totalPrice=item['totalPrice'],
@@ -57,12 +58,12 @@ class ErshoufangPipeline(object):
                                                         tradeGurantyMsg=item['tradeGurantyMsg'],
                                                         tradeHouseBookMsg=item['tradeHouseBookMsg'])
         print(sqlHouseEveryDayPriceF)
-        print(sqlHouseBaseInfoF)
+        # print(sqlHouseBaseInfoF)
         print(sqlHouseDetailInfoF)
-
-        conn.cursor().execute(sqlHouseEveryDayPriceF)
-        conn.cursor().execute(sqlHouseBaseInfoF)
-        conn.cursor().execute(sqlHouseDetailInfoF)
+        c = conn.cursor();
+        c.execute(sqlHouseEveryDayPriceF)
+        # c.execute(sqlHouseBaseInfoF)
+        c.execute(sqlHouseDetailInfoF)
         conn.commit();
 
 
