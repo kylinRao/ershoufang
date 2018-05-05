@@ -14,6 +14,7 @@ from db.dbInit import conn
 
 class ErshoufangPipeline(object):
     logger = logControl.getLogger()
+    c = conn.cursor();
 
     # sqlHouseBaseInfo = u"replace into houseBaseInfo (houseCode,url,visited,region,area,attention,sourceId) values ('{houseCode}','{url}','{visited}','{region}','{area}','{attention}','{sourceId}')";
     sqlHouseEveryDayPrice = u"replace into houseEveryDayPrice (houseCode,updateDay,totalPrice,unitPrice,updateTime) values ('{houseCode}','{date}','{totalPrice}','{unitPrice}','{updateTime}')";
@@ -63,10 +64,10 @@ class ErshoufangPipeline(object):
         self.logger.info(sqlHouseEveryDayPriceF)
         # print(sqlHouseBaseInfoF)
         self.logger.info(sqlHouseDetailInfoF)
-        c = conn.cursor();
-        c.execute(sqlHouseEveryDayPriceF)
+
+        self.c.execute(sqlHouseEveryDayPriceF)
         # c.execute(sqlHouseBaseInfoF)
-        c.execute(sqlHouseDetailInfoF)
+        self.c.execute(sqlHouseDetailInfoF)
         conn.commit();
 
 
