@@ -9,10 +9,11 @@ import sqlite3
 
 from datetime import datetime
 from conf.logControl import logControl
-from db.dbInit import conn
+from db.dbInit import DBUTIl
 
 
 class ErshoufangPipeline(object):
+    conn = DBUTIl.getDBConn()
     logger = logControl.getLogger()
     c = conn.cursor();
 
@@ -64,11 +65,14 @@ class ErshoufangPipeline(object):
         self.logger.info(sqlHouseEveryDayPriceF)
         # print(sqlHouseBaseInfoF)
         self.logger.info(sqlHouseDetailInfoF)
+        try:
+            self.c.execute(sqlHouseEveryDayPriceF)
+            # c.execute(sqlHouseBaseInfoF)
+            self.c.execute(sqlHouseDetailInfoF)
 
-        self.c.execute(sqlHouseEveryDayPriceF)
-        # c.execute(sqlHouseBaseInfoF)
-        self.c.execute(sqlHouseDetailInfoF)
-        conn.commit();
+            self.conn.commit();
+        except Exception as e:
+            self.logger.exception(e)
 
 
         self.logger.info("**********************inset into sql ok********************")

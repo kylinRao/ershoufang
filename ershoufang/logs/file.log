@@ -1,866 +1,122 @@
-[2018-05-01 19:49:25,736]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg53/> from <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg53>
-[2018-05-01 19:49:26,951]INFO | scrapy.extensions.logstats: Crawled 4873 pages (at 212 pages/min), scraped 4645 items (at 205 items/min)
-[2018-05-01 19:49:32,861]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg54/> from <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg54>
-[2018-05-01 19:49:40,230]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg55/> from <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg55>
-[2018-05-01 19:49:49,875]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg56/> from <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg56>
-[2018-05-01 19:49:58,451]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg57/> from <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg57>
-[2018-05-01 19:50:05,484]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg58/> from <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg58>
-[2018-05-01 19:50:12,635]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg59/> from <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg59>
-[2018-05-01 19:50:21,543]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg60/> from <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg60>
-[2018-05-01 19:50:27,059]INFO | scrapy.extensions.logstats: Crawled 5079 pages (at 206 pages/min), scraped 4843 items (at 198 items/min)
-[2018-05-01 19:50:29,509]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg61/> from <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg61>
-[2018-05-01 19:50:36,358]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg62/> from <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg62>
-[2018-05-01 19:50:44,858]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg63/> from <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg63>
-[2018-05-01 19:50:53,967]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg64/> from <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg64>
-[2018-05-01 19:51:02,934]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg65/> from <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg65>
-[2018-05-01 19:51:10,030]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg66/> from <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg66>
-[2018-05-01 19:51:18,691]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg67/> from <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg67>
-[2018-05-01 19:51:24,750]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg68/> from <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg68>
-[2018-05-01 19:51:26,914]INFO | scrapy.extensions.logstats: Crawled 5296 pages (at 217 pages/min), scraped 5055 items (at 212 items/min)
-[2018-05-01 19:51:32,102]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg69/> from <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg69>
-[2018-05-01 19:51:41,359]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg70/> from <GET https://nj.lianjia.com/ershoufang/pukou/ie2/pg70>
-[2018-05-01 19:52:26,773]INFO | scrapy.extensions.logstats: Crawled 5518 pages (at 222 pages/min), scraped 5274 items (at 219 items/min)
-[2018-05-01 19:53:26,773]INFO | scrapy.extensions.logstats: Crawled 5732 pages (at 214 pages/min), scraped 5488 items (at 214 items/min)
-[2018-05-01 19:54:26,773]INFO | scrapy.extensions.logstats: Crawled 5922 pages (at 190 pages/min), scraped 5677 items (at 189 items/min)
-[2018-05-01 19:55:26,933]INFO | scrapy.extensions.logstats: Crawled 6126 pages (at 204 pages/min), scraped 5879 items (at 202 items/min)
-[2018-05-01 19:56:26,773]INFO | scrapy.extensions.logstats: Crawled 6326 pages (at 200 pages/min), scraped 6081 items (at 202 items/min)
-[2018-05-01 19:56:57,433]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg3/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg3>
-[2018-05-01 19:57:05,724]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg4/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg4>
-[2018-05-01 19:57:13,039]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg5/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg5>
-[2018-05-01 19:57:21,052]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg6/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg6>
-[2018-05-01 19:57:27,336]INFO | scrapy.extensions.logstats: Crawled 6533 pages (at 207 pages/min), scraped 6277 items (at 196 items/min)
-[2018-05-01 19:57:28,855]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg7/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg7>
-[2018-05-01 19:57:36,315]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg8/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg8>
-[2018-05-01 19:57:40,013]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg9/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg9>
-[2018-05-01 19:57:52,513]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg10/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg10>
-[2018-05-01 19:58:00,674]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg11/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg11>
-[2018-05-01 19:58:07,489]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg12/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg12>
-[2018-05-01 19:58:15,697]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg13/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg13>
-[2018-05-01 19:58:23,355]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg14/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg14>
-[2018-05-01 19:58:26,780]INFO | scrapy.extensions.logstats: Crawled 6735 pages (at 202 pages/min), scraped 6459 items (at 182 items/min)
-[2018-05-01 19:58:31,960]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg15/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg15>
-[2018-05-01 19:58:41,496]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg16/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg16>
-[2018-05-01 19:58:51,454]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg17/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg17>
-[2018-05-01 19:58:59,206]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg18/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg18>
-[2018-05-01 19:59:08,676]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg19/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg19>
-[2018-05-01 19:59:14,236]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg20/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg20>
-[2018-05-01 19:59:26,588]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg21/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg21>
-[2018-05-01 19:59:26,773]INFO | scrapy.extensions.logstats: Crawled 6938 pages (at 203 pages/min), scraped 6648 items (at 189 items/min)
-[2018-05-01 19:59:32,858]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg22/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg22>
-[2018-05-01 19:59:40,835]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg23/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg23>
-[2018-05-01 19:59:50,065]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg24/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg24>
-[2018-05-01 20:00:00,342]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg25/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg25>
-[2018-05-01 20:00:08,450]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg26/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg26>
-[2018-05-01 20:00:15,996]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg27/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg27>
-[2018-05-01 20:00:24,280]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg28/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg28>
-[2018-05-01 20:00:26,773]INFO | scrapy.extensions.logstats: Crawled 7142 pages (at 204 pages/min), scraped 6841 items (at 193 items/min)
-[2018-05-01 20:00:34,286]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg29/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg29>
-[2018-05-01 20:00:43,441]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg30/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg30>
-[2018-05-01 20:00:52,312]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg31/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg31>
-[2018-05-01 20:01:00,808]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg32/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg32>
-[2018-05-01 20:01:08,279]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg33/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg33>
-[2018-05-01 20:01:15,796]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg34/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg34>
-[2018-05-01 20:01:23,326]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg35/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg35>
-[2018-05-01 20:01:27,424]INFO | scrapy.extensions.logstats: Crawled 7346 pages (at 204 pages/min), scraped 7032 items (at 191 items/min)
-[2018-05-01 20:01:30,217]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg36/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg36>
-[2018-05-01 20:01:40,121]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg37/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg37>
-[2018-05-01 20:01:50,148]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg38/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg38>
-[2018-05-01 20:01:57,539]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg39/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg39>
-[2018-05-01 20:02:02,216]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg40/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg40>
-[2018-05-01 20:02:09,795]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg41/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg41>
-[2018-05-01 20:02:16,946]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg42/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg42>
-[2018-05-01 20:02:27,095]INFO | scrapy.extensions.logstats: Crawled 7569 pages (at 223 pages/min), scraped 7251 items (at 219 items/min)
-[2018-05-01 20:02:27,319]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg43/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg43>
-[2018-05-01 20:02:36,470]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg44/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg44>
-[2018-05-01 20:02:44,911]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg45/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg45>
-[2018-05-01 20:02:55,517]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg46/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg46>
-[2018-05-01 20:03:06,059]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg47/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg47>
-[2018-05-01 20:03:14,548]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg48/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg48>
-[2018-05-01 20:03:22,039]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg49/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg49>
-[2018-05-01 20:03:26,783]INFO | scrapy.extensions.logstats: Crawled 7757 pages (at 188 pages/min), scraped 7430 items (at 179 items/min)
-[2018-05-01 20:03:30,154]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg50/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg50>
-[2018-05-01 20:03:39,703]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg51/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg51>
-[2018-05-01 20:03:49,703]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg52/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg52>
-[2018-05-01 20:03:58,457]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg53/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg53>
-[2018-05-01 20:04:05,750]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg54/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg54>
-[2018-05-01 20:04:15,089]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg55/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg55>
-[2018-05-01 20:04:24,561]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg56/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg56>
-[2018-05-01 20:04:26,773]INFO | scrapy.extensions.logstats: Crawled 7956 pages (at 199 pages/min), scraped 7606 items (at 176 items/min)
-[2018-05-01 20:04:35,559]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg57/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg57>
-[2018-05-01 20:04:35,934]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (302) to <GET https://nj.lianjia.com/ershoufang/> from <GET https://nj.lianjia.com/ershoufang/103102208013.html>
-[2018-05-01 20:04:43,210]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg58/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg58>
-[2018-05-01 20:04:51,680]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg59/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg59>
-[2018-05-01 20:05:00,676]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg60/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg60>
-[2018-05-01 20:05:07,414]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg61/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg61>
-[2018-05-01 20:05:14,716]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg62/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg62>
-[2018-05-01 20:05:23,206]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg63/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg63>
-[2018-05-01 20:05:27,227]INFO | scrapy.extensions.logstats: Crawled 8169 pages (at 213 pages/min), scraped 7786 items (at 180 items/min)
-[2018-05-01 20:05:30,882]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg64/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg64>
-[2018-05-01 20:05:37,035]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg65/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg65>
-[2018-05-01 20:05:42,288]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg66/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg66>
-[2018-05-01 20:05:46,118]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg67/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg67>
-[2018-05-01 20:05:52,404]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg68/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg68>
-[2018-05-01 20:05:57,674]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg69/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg69>
-[2018-05-01 20:06:03,036]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg70/> from <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/pg70>
-[2018-05-01 20:06:26,805]INFO | scrapy.extensions.logstats: Crawled 8435 pages (at 266 pages/min), scraped 8028 items (at 242 items/min)
-[2018-05-01 20:07:00,486]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg2/> from <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg2>
-[2018-05-01 20:07:08,530]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg3/> from <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg3>
-[2018-05-01 20:07:18,726]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg4/> from <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg4>
-[2018-05-01 20:07:23,709]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg5/> from <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg5>
-[2018-05-01 20:07:26,773]INFO | scrapy.extensions.logstats: Crawled 8648 pages (at 213 pages/min), scraped 8230 items (at 202 items/min)
-[2018-05-01 20:07:30,243]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg6/> from <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg6>
-[2018-05-01 20:07:34,638]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg7/> from <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg7>
-[2018-05-01 20:07:40,726]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg8/> from <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg8>
-[2018-05-01 20:07:49,055]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg9/> from <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg9>
-[2018-05-01 20:08:00,411]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg10/> from <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg10>
-[2018-05-01 20:08:10,339]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg11/> from <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg11>
-[2018-05-01 20:08:21,388]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg12/> from <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg12>
-[2018-05-01 20:08:26,773]INFO | scrapy.extensions.logstats: Crawled 8860 pages (at 212 pages/min), scraped 8426 items (at 196 items/min)
-[2018-05-01 20:08:28,631]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg13/> from <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg13>
-[2018-05-01 20:08:38,351]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg14/> from <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg14>
-[2018-05-01 20:08:46,448]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg15/> from <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg15>
-[2018-05-01 20:08:55,789]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg16/> from <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg16>
-[2018-05-01 20:09:05,108]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg17/> from <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg17>
-[2018-05-01 20:09:16,877]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg18/> from <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg18>
-[2018-05-01 20:09:26,151]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg19/> from <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg19>
-[2018-05-01 20:09:26,773]INFO | scrapy.extensions.logstats: Crawled 9053 pages (at 193 pages/min), scraped 8608 items (at 182 items/min)
-[2018-05-01 20:09:36,125]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg20/> from <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg20>
-[2018-05-01 20:09:45,964]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg21/> from <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg21>
-[2018-05-01 20:09:55,145]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg22/> from <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg22>
-[2018-05-01 20:10:06,789]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg23/> from <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg23>
-[2018-05-01 20:10:17,062]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg24/> from <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg24>
-[2018-05-01 20:10:26,974]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg25/> from <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg25>
-[2018-05-01 20:10:26,992]INFO | scrapy.extensions.logstats: Crawled 9238 pages (at 185 pages/min), scraped 8779 items (at 171 items/min)
-[2018-05-01 20:10:35,677]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg26/> from <GET https://nj.lianjia.com/ershoufang/qixia/ie1/pg26>
-[2018-05-01 20:10:53,611]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103102173347.html> (failed 1 times): User timeout caused connection failure: Getting https://nj.lianjia.com/ershoufang/103102173347.html took longer than 180.0 seconds..
-[2018-05-01 20:11:22,443]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg2/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg2>
-[2018-05-01 20:11:24,796]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg2/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg2>
-[2018-05-01 20:11:26,917]INFO | scrapy.extensions.logstats: Crawled 9430 pages (at 192 pages/min), scraped 8949 items (at 170 items/min)
-[2018-05-01 20:11:27,390]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg2/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg2>
-[2018-05-01 20:11:31,790]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg3/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg3>
-[2018-05-01 20:11:36,115]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg3/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg3>
-[2018-05-01 20:11:40,263]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg3/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg3>
-[2018-05-01 20:11:43,289]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg4/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg4>
-[2018-05-01 20:11:48,509]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg4/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg4>
-[2018-05-01 20:11:52,345]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg4/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg4>
-[2018-05-01 20:11:56,990]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg5/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg5>
-[2018-05-01 20:11:57,084]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg5/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg5>
-[2018-05-01 20:12:01,818]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg5/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg5>
-[2018-05-01 20:12:05,059]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg6/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg6>
-[2018-05-01 20:12:05,161]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg6/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg6>
-[2018-05-01 20:12:10,732]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg6/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg6>
-[2018-05-01 20:12:15,963]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg7/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg7>
-[2018-05-01 20:12:16,075]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg7/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg7>
-[2018-05-01 20:12:18,825]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg7/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg7>
-[2018-05-01 20:12:24,828]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg8/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg8>
-[2018-05-01 20:12:27,053]INFO | scrapy.extensions.logstats: Crawled 9600 pages (at 170 pages/min), scraped 9104 items (at 155 items/min)
-[2018-05-01 20:12:27,144]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg8/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg8>
-[2018-05-01 20:12:27,319]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg8/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg8>
-[2018-05-01 20:12:36,989]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg9/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg9>
-[2018-05-01 20:12:37,298]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg9/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg9>
-[2018-05-01 20:12:37,516]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg9/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg9>
-[2018-05-01 20:12:45,977]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg10/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg10>
-[2018-05-01 20:12:46,658]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg10/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg10>
-[2018-05-01 20:12:48,690]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg10/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg10>
-[2018-05-01 20:12:54,471]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg11/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg11>
-[2018-05-01 20:12:56,900]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg11/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg11>
-[2018-05-01 20:13:02,128]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg12/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg12>
-[2018-05-01 20:13:02,427]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg12/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg12>
-[2018-05-01 20:13:10,230]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg13/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg13>
-[2018-05-01 20:13:12,358]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg13/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg13>
-[2018-05-01 20:13:19,444]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg14/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg14>
-[2018-05-01 20:13:21,913]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg14/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg14>
-[2018-05-01 20:13:26,270]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg15/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg15>
-[2018-05-01 20:13:26,903]INFO | scrapy.extensions.logstats: Crawled 9807 pages (at 207 pages/min), scraped 9294 items (at 190 items/min)
-[2018-05-01 20:13:28,046]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg15/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg15>
-[2018-05-01 20:13:36,119]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg16/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg16>
-[2018-05-01 20:13:36,305]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg16/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg16>
-[2018-05-01 20:13:42,727]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg17/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg17>
-[2018-05-01 20:13:44,454]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg17/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg17>
-[2018-05-01 20:13:50,177]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg18/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg18>
-[2018-05-01 20:13:53,191]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg18/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg18>
-[2018-05-01 20:13:58,434]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg19/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg19>
-[2018-05-01 20:14:01,289]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg19/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg19>
-[2018-05-01 20:14:05,588]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg20/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg20>
-[2018-05-01 20:14:08,628]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg20/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg20>
-[2018-05-01 20:14:15,065]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg21/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg21>
-[2018-05-01 20:14:17,039]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg21/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg21>
-[2018-05-01 20:14:26,502]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg22/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg22>
-[2018-05-01 20:14:27,411]INFO | scrapy.extensions.logstats: Crawled 10016 pages (at 209 pages/min), scraped 9489 items (at 195 items/min)
-[2018-05-01 20:14:27,556]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg22/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg22>
-[2018-05-01 20:14:37,513]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg23/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg23>
-[2018-05-01 20:14:40,108]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg23/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg23>
-[2018-05-01 20:14:48,394]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg24/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg24>
-[2018-05-01 20:14:50,697]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg24/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg24>
-[2018-05-01 20:14:55,148]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg25/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg25>
-[2018-05-01 20:15:01,364]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg25/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg25>
-[2018-05-01 20:15:06,078]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg26/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg26>
-[2018-05-01 20:15:09,717]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg26/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg26>
-[2018-05-01 20:15:14,328]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg27/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg27>
-[2018-05-01 20:15:18,290]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg27/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg27>
-[2018-05-01 20:15:22,265]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg28/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg28>
-[2018-05-01 20:15:25,000]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg28/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg28>
-[2018-05-01 20:15:27,430]INFO | scrapy.extensions.logstats: Crawled 10205 pages (at 189 pages/min), scraped 9661 items (at 172 items/min)
-[2018-05-01 20:15:32,428]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg29/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg29>
-[2018-05-01 20:15:33,098]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg29/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie1/pg29>
-[2018-05-01 20:15:40,440]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg30/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg30>
-[2018-05-01 20:15:48,332]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg31/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg31>
-[2018-05-01 20:15:59,164]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg32/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg32>
-[2018-05-01 20:16:10,999]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg33/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg33>
-[2018-05-01 20:16:22,960]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg34/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg34>
-[2018-05-01 20:16:27,171]INFO | scrapy.extensions.logstats: Crawled 10392 pages (at 187 pages/min), scraped 9835 items (at 174 items/min)
-[2018-05-01 20:16:37,642]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg35/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg35>
-[2018-05-01 20:16:45,673]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg36/> from <GET https://nj.lianjia.com/ershoufang/jianye/ie2/pg36>
-[2018-05-01 20:17:26,875]INFO | scrapy.extensions.logstats: Crawled 10588 pages (at 196 pages/min), scraped 10027 items (at 192 items/min)
-[2018-05-01 20:18:26,773]INFO | scrapy.extensions.logstats: Crawled 10774 pages (at 186 pages/min), scraped 10215 items (at 188 items/min)
-[2018-05-01 20:19:26,987]INFO | scrapy.extensions.logstats: Crawled 10951 pages (at 177 pages/min), scraped 10390 items (at 175 items/min)
-[2018-05-01 20:20:07,325]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg11/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg11>
-[2018-05-01 20:20:17,444]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg12/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg12>
-[2018-05-01 20:20:25,736]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg13/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg13>
-[2018-05-01 20:20:26,914]INFO | scrapy.extensions.logstats: Crawled 11120 pages (at 169 pages/min), scraped 10557 items (at 167 items/min)
-[2018-05-01 20:20:34,733]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg14/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg14>
-[2018-05-01 20:20:42,786]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg15/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg15>
-[2018-05-01 20:20:53,112]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg16/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg16>
-[2018-05-01 20:21:03,750]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg17/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg17>
-[2018-05-01 20:21:13,648]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg18/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg18>
-[2018-05-01 20:21:15,599]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103102195194.html> (failed 1 times): User timeout caused connection failure: Getting https://nj.lianjia.com/ershoufang/103102195194.html took longer than 180.0 seconds..
-[2018-05-01 20:21:15,723]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103101898763.html> (failed 1 times): User timeout caused connection failure: Getting https://nj.lianjia.com/ershoufang/103101898763.html took longer than 180.0 seconds..
-[2018-05-01 20:21:24,250]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg19/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg19>
-[2018-05-01 20:21:26,773]INFO | scrapy.extensions.logstats: Crawled 11302 pages (at 182 pages/min), scraped 10734 items (at 177 items/min)
-[2018-05-01 20:21:34,211]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg20/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg20>
-[2018-05-01 20:21:43,220]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg21/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg21>
-[2018-05-01 20:21:51,690]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg22/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg22>
-[2018-05-01 20:22:26,967]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103101929943.html> (failed 1 times): User timeout caused connection failure: Getting https://nj.lianjia.com/ershoufang/103101929943.html took longer than 180.0 seconds..
-[2018-05-01 20:22:27,081]INFO | scrapy.extensions.logstats: Crawled 11497 pages (at 195 pages/min), scraped 10921 items (at 187 items/min)
-[2018-05-01 20:23:26,865]INFO | scrapy.extensions.logstats: Crawled 11684 pages (at 187 pages/min), scraped 11107 items (at 186 items/min)
-[2018-05-01 20:24:26,867]INFO | scrapy.extensions.logstats: Crawled 11864 pages (at 180 pages/min), scraped 11291 items (at 184 items/min)
-[2018-05-01 20:24:53,572]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg2/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg2>
-[2018-05-01 20:24:53,848]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie1/pg2/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie1/pg2>
-[2018-05-01 20:24:53,956]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg2/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg2>
-[2018-05-01 20:25:02,217]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg3/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg3>
-[2018-05-01 20:25:04,313]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg3/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg3>
-[2018-05-01 20:25:11,148]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg4/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg4>
-[2018-05-01 20:25:12,092]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg4/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg4>
-[2018-05-01 20:25:18,016]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg5/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg5>
-[2018-05-01 20:25:20,660]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg5/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg5>
-[2018-05-01 20:25:26,796]INFO | scrapy.extensions.logstats: Crawled 12048 pages (at 184 pages/min), scraped 11468 items (at 177 items/min)
-[2018-05-01 20:25:27,862]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg6/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg6>
-[2018-05-01 20:25:30,549]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg6/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg6>
-[2018-05-01 20:25:37,598]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg7/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg7>
-[2018-05-01 20:25:39,970]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg7/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg7>
-[2018-05-01 20:25:47,766]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg8/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg8>
-[2018-05-01 20:25:47,811]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg8/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg8>
-[2018-05-01 20:26:00,676]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg9/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg9>
-[2018-05-01 20:26:00,780]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg9/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg9>
-[2018-05-01 20:26:10,125]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg10/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg10>
-[2018-05-01 20:26:12,769]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg10/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg10>
-[2018-05-01 20:26:17,740]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg11/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg11>
-[2018-05-01 20:26:20,411]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg11/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg11>
-[2018-05-01 20:26:25,188]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg12/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg12>
-[2018-05-01 20:26:26,776]INFO | scrapy.extensions.logstats: Crawled 12217 pages (at 169 pages/min), scraped 11624 items (at 156 items/min)
-[2018-05-01 20:26:26,881]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103102294002.html> (failed 1 times): User timeout caused connection failure: Getting https://nj.lianjia.com/ershoufang/103102294002.html took longer than 180.0 seconds..
-[2018-05-01 20:26:28,440]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg12/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg12>
-[2018-05-01 20:26:32,973]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg13/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg13>
-[2018-05-01 20:26:37,463]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg13/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg13>
-[2018-05-01 20:26:42,295]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg14/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg14>
-[2018-05-01 20:26:46,171]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg14/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg14>
-[2018-05-01 20:26:51,223]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg15/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg15>
-[2018-05-01 20:26:57,658]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg15/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg15>
-[2018-05-01 20:26:59,680]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg16/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg16>
-[2018-05-01 20:27:06,651]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg16/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg16>
-[2018-05-01 20:27:06,726]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103101856319.html> (failed 1 times): User timeout caused connection failure: Getting https://nj.lianjia.com/ershoufang/103101856319.html took longer than 180.0 seconds..
-[2018-05-01 20:27:09,365]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg17/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg17>
-[2018-05-01 20:27:17,187]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg17/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg17>
-[2018-05-01 20:27:19,683]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg18/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg18>
-[2018-05-01 20:27:26,831]INFO | scrapy.extensions.logstats: Crawled 12394 pages (at 177 pages/min), scraped 11787 items (at 163 items/min)
-[2018-05-01 20:27:27,444]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg18/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg18>
-[2018-05-01 20:27:32,438]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg19/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg19>
-[2018-05-01 20:27:36,786]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg19/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg19>
-[2018-05-01 20:27:42,051]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg20/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg20>
-[2018-05-01 20:27:45,786]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg20/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg20>
-[2018-05-01 20:27:51,286]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg21/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg21>
-[2018-05-01 20:27:56,043]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg21/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg21>
-[2018-05-01 20:27:58,535]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103101409042.html> (failed 1 times): User timeout caused connection failure: Getting https://nj.lianjia.com/ershoufang/103101409042.html took longer than 180.0 seconds..
-[2018-05-01 20:28:00,634]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg22/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg22>
-[2018-05-01 20:28:04,332]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg22/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg22>
-[2018-05-01 20:28:08,911]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg23/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg23>
-[2018-05-01 20:28:11,516]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg23/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg23>
-[2018-05-01 20:28:17,357]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg24/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg24>
-[2018-05-01 20:28:21,230]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg24/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg24>
-[2018-05-01 20:28:24,888]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg25/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg25>
-[2018-05-01 20:28:26,805]INFO | scrapy.extensions.logstats: Crawled 12598 pages (at 204 pages/min), scraped 11977 items (at 190 items/min)
-[2018-05-01 20:28:28,680]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg25/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg25>
-[2018-05-01 20:28:33,888]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg26/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg26>
-[2018-05-01 20:28:36,857]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg26/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg26>
-[2018-05-01 20:28:42,394]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg27/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg27>
-[2018-05-01 20:28:44,171]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg27/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg27>
-[2018-05-01 20:28:48,736]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg28/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg28>
-[2018-05-01 20:28:52,086]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg28/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg28>
-[2018-05-01 20:28:56,683]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg29/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg29>
-[2018-05-01 20:29:00,864]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg29/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg29>
-[2018-05-01 20:29:05,138]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg30/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg30>
-[2018-05-01 20:29:10,913]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg30/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg30>
-[2018-05-01 20:29:14,736]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg31/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg31>
-[2018-05-01 20:29:17,392]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg31/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg31>
-[2018-05-01 20:29:20,686]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg32/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg32>
-[2018-05-01 20:29:24,792]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg32/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg32>
-[2018-05-01 20:29:26,773]INFO | scrapy.extensions.logstats: Crawled 12815 pages (at 217 pages/min), scraped 12180 items (at 203 items/min)
-[2018-05-01 20:29:29,375]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg33/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg33>
-[2018-05-01 20:29:34,331]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg33/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg33>
-[2018-05-01 20:29:39,233]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg34/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg34>
-[2018-05-01 20:29:42,877]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg34/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg34>
-[2018-05-01 20:29:47,234]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg35/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg35>
-[2018-05-01 20:29:52,423]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg35/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg35>
-[2018-05-01 20:29:57,226]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg36/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg36>
-[2018-05-01 20:30:02,005]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg36/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg36>
-[2018-05-01 20:30:06,046]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg37/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg37>
-[2018-05-01 20:30:15,664]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg38/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg38>
-[2018-05-01 20:30:24,759]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg39/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg39>
-[2018-05-01 20:30:26,782]INFO | scrapy.extensions.logstats: Crawled 13001 pages (at 186 pages/min), scraped 12352 items (at 172 items/min)
-[2018-05-01 20:30:34,401]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg40/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg40>
-[2018-05-01 20:30:42,345]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg41/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg41>
-[2018-05-01 20:30:50,243]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg42/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg42>
-[2018-05-01 20:30:57,848]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg43/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/pg43>
-[2018-05-01 20:31:15,543]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg37/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg37>
-[2018-05-01 20:31:23,155]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg38/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/pg38>
-[2018-05-01 20:31:26,773]INFO | scrapy.extensions.logstats: Crawled 13206 pages (at 205 pages/min), scraped 12551 items (at 199 items/min)
-[2018-05-01 20:32:26,773]INFO | scrapy.extensions.logstats: Crawled 13403 pages (at 197 pages/min), scraped 12747 items (at 196 items/min)
-[2018-05-01 20:33:27,240]INFO | scrapy.extensions.logstats: Crawled 13615 pages (at 212 pages/min), scraped 12954 items (at 207 items/min)
-[2018-05-01 20:34:08,786]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103102160620.html> (failed 1 times): User timeout caused connection failure: Getting https://nj.lianjia.com/ershoufang/103102160620.html took longer than 180.0 seconds..
-[2018-05-01 20:34:26,773]INFO | scrapy.extensions.logstats: Crawled 13800 pages (at 185 pages/min), scraped 13144 items (at 190 items/min)
-[2018-05-01 20:48:53,529]INFO | scrapy.extensions.logstats: Crawled 13946 pages (at 146 pages/min), scraped 13286 items (at 142 items/min)
-[2018-05-01 20:48:53,558]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103101539341.html> (failed 1 times): User timeout caused connection failure: Getting https://nj.lianjia.com/ershoufang/103101539341.html took longer than 180.0 seconds..
-[2018-05-01 20:48:53,588]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103102314223.html> (failed 1 times): User timeout caused connection failure: Getting https://nj.lianjia.com/ershoufang/103102314223.html took longer than 180.0 seconds..
-[2018-05-01 20:48:53,625]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103102304903.html> (failed 1 times): User timeout caused connection failure: Getting https://nj.lianjia.com/ershoufang/103102304903.html took longer than 180.0 seconds..
-[2018-05-01 20:48:53,650]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103102304444.html> (failed 1 times): User timeout caused connection failure: Getting https://nj.lianjia.com/ershoufang/103102304444.html took longer than 180.0 seconds..
-[2018-05-01 20:48:53,671]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103102301486.html> (failed 1 times): User timeout caused connection failure: Getting https://nj.lianjia.com/ershoufang/103102301486.html took longer than 180.0 seconds..
-[2018-05-01 20:48:53,696]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103102298139.html> (failed 1 times): User timeout caused connection failure: Getting https://nj.lianjia.com/ershoufang/103102298139.html took longer than 180.0 seconds..
-[2018-05-01 20:48:53,717]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103102298062.html> (failed 1 times): User timeout caused connection failure: Getting https://nj.lianjia.com/ershoufang/103102298062.html took longer than 180.0 seconds..
-[2018-05-01 20:48:53,743]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103102297918.html> (failed 1 times): User timeout caused connection failure: Getting https://nj.lianjia.com/ershoufang/103102297918.html took longer than 180.0 seconds..
-[2018-05-01 20:49:26,773]INFO | scrapy.extensions.logstats: Crawled 14182 pages (at 236 pages/min), scraped 13286 items (at 0 items/min)
-[2018-05-01 20:49:47,828]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie1/pg3/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie1/pg3>
-[2018-05-01 20:49:52,140]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie1/pg4/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie1/pg4>
-[2018-05-01 20:49:55,348]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie1/pg5/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie1/pg5>
-[2018-05-01 20:49:58,346]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie1/pg6/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie1/pg6>
-[2018-05-01 20:50:02,210]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie1/pg7/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie1/pg7>
-[2018-05-01 20:50:05,693]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie1/pg8/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie1/pg8>
-[2018-05-01 20:50:09,357]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie1/pg9/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie1/pg9>
-[2018-05-01 20:50:13,431]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie1/pg10/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie1/pg10>
-[2018-05-01 20:50:26,842]INFO | scrapy.extensions.logstats: Crawled 14600 pages (at 418 pages/min), scraped 13286 items (at 0 items/min)
-[2018-05-01 20:50:38,025]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg2/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg2>
-[2018-05-01 20:50:38,571]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg2/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg2>
-[2018-05-01 20:50:46,140]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg3/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg3>
-[2018-05-01 20:50:50,589]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg3/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg3>
-[2018-05-01 20:50:54,546]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg4/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg4>
-[2018-05-01 20:50:58,736]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg4/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg4>
-[2018-05-01 20:51:02,823]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg5/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg5>
-[2018-05-01 20:51:05,132]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (302) to <GET https://nj.lianjia.com/ershoufang/> from <GET https://nj.lianjia.com/ershoufang/103102025552.html>
-[2018-05-01 20:51:05,993]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg5/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg5>
-[2018-05-01 20:51:09,700]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg6/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg6>
-[2018-05-01 20:51:13,489]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg6/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg6>
-[2018-05-01 20:51:17,276]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg7/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg7>
-[2018-05-01 20:51:21,301]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg7/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg7>
-[2018-05-01 20:51:24,963]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg8/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg8>
-[2018-05-01 20:51:26,992]INFO | scrapy.extensions.logstats: Crawled 14818 pages (at 218 pages/min), scraped 13286 items (at 0 items/min)
-[2018-05-01 20:51:28,493]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg8/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg8>
-[2018-05-01 20:51:32,908]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg9/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg9>
-[2018-05-01 20:51:36,075]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg9/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg9>
-[2018-05-01 20:51:41,563]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg10/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg10>
-[2018-05-01 20:51:43,213]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg10/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg10>
-[2018-05-01 20:51:49,792]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg11/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg11>
-[2018-05-01 20:51:50,115]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg11/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg11>
-[2018-05-01 20:51:56,016]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg12/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg12>
-[2018-05-01 20:51:56,460]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg12/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg12>
-[2018-05-01 20:52:02,813]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg13/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg13>
-[2018-05-01 20:52:11,931]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg14/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg14>
-[2018-05-01 20:52:19,135]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg15/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg15>
-[2018-05-01 20:52:26,773]INFO | scrapy.extensions.logstats: Crawled 15000 pages (at 182 pages/min), scraped 13286 items (at 0 items/min)
-[2018-05-01 20:52:28,256]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg16/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg16>
-[2018-05-01 20:52:36,634]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg17/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg17>
-[2018-05-01 20:52:44,763]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg18/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg18>
-[2018-05-01 20:52:52,654]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg19/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg19>
-[2018-05-01 20:52:58,494]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103101705936.html> (failed 1 times): User timeout caused connection failure: Getting https://nj.lianjia.com/ershoufang/103101705936.html took longer than 180.0 seconds..
-[2018-05-01 20:53:00,895]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg20/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg20>
-[2018-05-01 20:53:08,200]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg21/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg21>
-[2018-05-01 20:53:14,835]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg22/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg22>
-[2018-05-01 20:53:22,276]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg23/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg23>
-[2018-05-01 20:53:26,881]INFO | scrapy.extensions.logstats: Crawled 15182 pages (at 182 pages/min), scraped 13286 items (at 0 items/min)
-[2018-05-01 20:53:31,285]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg24/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg24>
-[2018-05-01 20:53:39,749]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg25/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg25>
-[2018-05-01 20:53:47,078]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg26/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg26>
-[2018-05-01 20:53:53,372]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg27/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg27>
-[2018-05-01 20:54:00,640]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg28/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg28>
-[2018-05-01 20:54:07,683]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103100930303.html> (failed 1 times): User timeout caused connection failure: Getting https://nj.lianjia.com/ershoufang/103100930303.html took longer than 180.0 seconds..
-[2018-05-01 20:54:09,444]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg29/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg29>
-[2018-05-01 20:54:18,033]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg30/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg30>
-[2018-05-01 20:54:26,328]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg31/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg31>
-[2018-05-01 20:54:26,773]INFO | scrapy.extensions.logstats: Crawled 15374 pages (at 192 pages/min), scraped 13286 items (at 0 items/min)
-[2018-05-01 20:54:28,259]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103102031738.html> (failed 1 times): User timeout caused connection failure: Getting https://nj.lianjia.com/ershoufang/103102031738.html took longer than 180.0 seconds..
-[2018-05-01 20:54:34,782]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg32/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg32>
-[2018-05-01 20:54:35,411]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (302) to <GET https://nj.lianjia.com/ershoufang/> from <GET https://nj.lianjia.com/ershoufang/103102246459.html>
-[2018-05-01 20:54:42,667]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg33/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg33>
-[2018-05-01 20:54:51,048]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg34/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg34>
-[2018-05-01 20:54:58,793]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg12/> (failed 1 times): User timeout caused connection failure: Getting https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg12/ took longer than 180.0 seconds..
-[2018-05-01 20:54:58,940]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg35/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg35>
-[2018-05-01 20:55:06,463]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg13/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg13>
-[2018-05-01 20:55:06,848]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg36/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg36>
-[2018-05-01 20:55:15,505]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg37/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg37>
-[2018-05-01 20:55:15,704]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg14/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg14>
-[2018-05-01 20:55:23,098]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg38/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg38>
-[2018-05-01 20:55:25,140]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg15/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg15>
-[2018-05-01 20:55:27,003]INFO | scrapy.extensions.logstats: Crawled 15599 pages (at 225 pages/min), scraped 13286 items (at 0 items/min)
-[2018-05-01 20:55:30,986]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg39/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg39>
-[2018-05-01 20:55:32,795]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg16/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg16>
-[2018-05-01 20:55:36,361]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg40/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg40>
-[2018-05-01 20:55:39,404]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg17/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg17>
-[2018-05-01 20:55:44,161]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg41/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg41>
-[2018-05-01 20:55:48,250]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg18/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg18>
-[2018-05-01 20:55:51,094]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg42/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg42>
-[2018-05-01 20:55:53,311]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg19/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg19>
-[2018-05-01 20:55:57,348]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg43/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg43>
-[2018-05-01 20:55:59,388]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg20/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg20>
-[2018-05-01 20:56:03,677]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg44/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg44>
-[2018-05-01 20:56:07,608]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg21/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg21>
-[2018-05-01 20:56:10,033]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg45/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg45>
-[2018-05-01 20:56:13,457]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg22/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg22>
-[2018-05-01 20:56:17,938]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg46/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg46>
-[2018-05-01 20:56:20,454]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg23/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg23>
-[2018-05-01 20:56:24,928]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg47/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg47>
-[2018-05-01 20:56:26,773]INFO | scrapy.extensions.logstats: Crawled 15845 pages (at 246 pages/min), scraped 13286 items (at 0 items/min)
-[2018-05-01 20:56:31,655]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg48/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg48>
-[2018-05-01 20:56:43,994]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg49/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg49>
-[2018-05-01 20:56:51,415]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg50/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg50>
-[2018-05-01 20:57:00,017]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg51/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg51>
-[2018-05-01 20:57:08,303]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg52/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg52>
-[2018-05-01 20:57:17,549]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg53/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg53>
-[2018-05-01 20:57:26,756]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg54/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg54>
-[2018-05-01 20:57:26,792]INFO | scrapy.extensions.logstats: Crawled 16059 pages (at 214 pages/min), scraped 13286 items (at 0 items/min)
-[2018-05-01 20:57:33,137]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg55/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg55>
-[2018-05-01 20:57:37,701]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg56/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg56>
-[2018-05-01 20:57:44,694]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg57/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg57>
-[2018-05-01 20:57:50,525]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg58/> from <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/pg58>
-[2018-05-01 20:58:26,773]INFO | scrapy.extensions.logstats: Crawled 16314 pages (at 255 pages/min), scraped 13286 items (at 0 items/min)
-[2018-05-01 20:59:26,934]INFO | scrapy.extensions.logstats: Crawled 16555 pages (at 241 pages/min), scraped 13286 items (at 0 items/min)
-[2018-05-01 21:00:26,773]INFO | scrapy.extensions.logstats: Crawled 16770 pages (at 215 pages/min), scraped 13286 items (at 0 items/min)
-[2018-05-01 21:01:00,239]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103102348750.html> (failed 1 times): User timeout caused connection failure: Getting https://nj.lianjia.com/ershoufang/103102348750.html took longer than 180.0 seconds..
-[2018-05-01 21:01:26,796]INFO | scrapy.extensions.logstats: Crawled 16961 pages (at 191 pages/min), scraped 13286 items (at 0 items/min)
-[2018-05-01 21:02:27,026]INFO | scrapy.extensions.logstats: Crawled 17157 pages (at 196 pages/min), scraped 13286 items (at 0 items/min)
-[2018-05-01 21:02:54,604]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/gaochun/ie2/> from <GET http://nj.lianjia.com/ershoufang/gaochun/ie2/>
-[2018-05-01 21:02:59,586]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103102297978.html> (failed 1 times): User timeout caused connection failure: Getting https://nj.lianjia.com/ershoufang/103102297978.html took longer than 180.0 seconds..
-[2018-05-01 21:03:00,759]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/> from <GET http://nj.lianjia.com/ershoufang/ie2/>
-[2018-05-01 21:03:02,772]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg2/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg2>
-[2018-05-01 21:03:04,418]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg3/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg3>
-[2018-05-01 21:03:06,492]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg4/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg4>
-[2018-05-01 21:03:08,595]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg5/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg5>
-[2018-05-01 21:03:12,030]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg6/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg6>
-[2018-05-01 21:03:13,960]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg7/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg7>
-[2018-05-01 21:03:15,572]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg8/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg8>
-[2018-05-01 21:03:17,058]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg9/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg9>
-[2018-05-01 21:03:18,437]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg10/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg10>
-[2018-05-01 21:03:21,691]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg11/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg11>
-[2018-05-01 21:03:23,846]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg12/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg12>
-[2018-05-01 21:03:26,786]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg13/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg13>
-[2018-05-01 21:03:26,812]INFO | scrapy.extensions.logstats: Crawled 17335 pages (at 178 pages/min), scraped 13286 items (at 0 items/min)
-[2018-05-01 21:03:28,598]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg14/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg14>
-[2018-05-01 21:03:30,144]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg15/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg15>
-[2018-05-01 21:03:30,769]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103102178694.html> (failed 1 times): User timeout caused connection failure: Getting https://nj.lianjia.com/ershoufang/103102178694.html took longer than 180.0 seconds..
-[2018-05-01 21:03:32,184]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg16/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg16>
-[2018-05-01 21:03:34,437]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg17/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg17>
-[2018-05-01 21:03:36,380]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg18/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg18>
-[2018-05-01 21:03:38,296]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg19/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg19>
-[2018-05-01 21:03:40,137]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg20/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg20>
-[2018-05-01 21:03:41,910]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg21/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg21>
-[2018-05-01 21:04:00,792]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103101950388.html> (failed 1 times): User timeout caused connection failure: Getting https://nj.lianjia.com/ershoufang/103101950388.html took longer than 180.0 seconds..
-[2018-05-01 21:04:26,773]INFO | scrapy.extensions.logstats: Crawled 17373 pages (at 38 pages/min), scraped 13286 items (at 0 items/min)
-[2018-05-01 21:05:26,773]INFO | scrapy.extensions.logstats: Crawled 17373 pages (at 0 pages/min), scraped 13286 items (at 0 items/min)
-[2018-05-01 21:06:26,773]INFO | scrapy.extensions.logstats: Crawled 17373 pages (at 0 pages/min), scraped 13286 items (at 0 items/min)
-[2018-05-01 21:06:41,953]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/ie2/pg21/> (failed 1 times): User timeout caused connection failure: Getting https://nj.lianjia.com/ershoufang/ie2/pg21/ took longer than 180.0 seconds..
-[2018-05-01 21:06:43,717]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg22/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg22>
-[2018-05-01 21:06:45,430]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg23/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg23>
-[2018-05-01 21:06:47,141]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg24/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg24>
-[2018-05-01 21:06:49,039]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg25/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg25>
-[2018-05-01 21:06:50,687]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg26/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg26>
-[2018-05-01 21:06:52,187]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg27/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg27>
-[2018-05-01 21:06:53,776]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg28/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg28>
-[2018-05-01 21:06:55,499]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg29/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg29>
-[2018-05-01 21:06:57,315]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg30/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg30>
-[2018-05-01 21:06:58,857]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg31/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg31>
-[2018-05-01 21:07:00,387]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg32/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg32>
-[2018-05-01 21:07:02,838]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg33/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg33>
-[2018-05-01 21:07:04,696]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg34/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg34>
-[2018-05-01 21:07:06,377]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg35/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg35>
-[2018-05-01 21:07:08,105]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg36/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg36>
-[2018-05-01 21:07:10,088]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg37/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg37>
-[2018-05-01 21:07:11,740]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg38/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg38>
-[2018-05-01 21:07:13,782]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg39/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg39>
-[2018-05-01 21:07:15,276]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg40/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg40>
-[2018-05-01 21:07:16,943]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg41/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg41>
-[2018-05-01 21:07:18,677]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg42/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg42>
-[2018-05-01 21:07:20,420]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg43/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg43>
-[2018-05-01 21:07:22,279]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg44/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg44>
-[2018-05-01 21:07:24,075]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg45/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg45>
-[2018-05-01 21:07:26,121]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg46/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg46>
-[2018-05-01 21:07:26,773]INFO | scrapy.extensions.logstats: Crawled 17467 pages (at 94 pages/min), scraped 13286 items (at 0 items/min)
-[2018-05-01 21:07:27,612]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg47/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg47>
-[2018-05-01 21:07:29,013]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg48/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg48>
-[2018-05-01 21:07:30,811]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg49/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg49>
-[2018-05-01 21:07:32,500]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg50/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg50>
-[2018-05-01 21:07:34,082]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg51/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg51>
-[2018-05-01 21:07:35,759]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg52/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg52>
-[2018-05-01 21:07:37,385]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg53/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg53>
-[2018-05-01 21:07:39,437]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg54/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg54>
-[2018-05-01 21:07:41,035]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg55/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg55>
-[2018-05-01 21:07:42,769]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg56/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg56>
-[2018-05-01 21:07:44,835]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg57/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg57>
-[2018-05-01 21:07:46,420]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg58/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg58>
-[2018-05-01 21:07:50,401]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg59/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg59>
-[2018-05-01 21:07:52,055]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg60/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg60>
-[2018-05-01 21:07:53,918]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg61/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg61>
-[2018-05-01 21:07:56,980]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg62/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg62>
-[2018-05-01 21:07:58,851]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg63/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg63>
-[2018-05-01 21:08:00,546]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg64/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg64>
-[2018-05-01 21:08:02,414]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg65/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg65>
-[2018-05-01 21:08:04,292]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg66/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg66>
-[2018-05-01 21:08:06,290]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg67/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg67>
-[2018-05-01 21:08:08,173]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg68/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg68>
-[2018-05-01 21:08:10,138]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg69/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg69>
-[2018-05-01 21:08:12,428]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg70/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg70>
-[2018-05-01 21:08:14,165]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg71/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg71>
-[2018-05-01 21:08:15,846]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg72/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg72>
-[2018-05-01 21:08:18,415]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg73/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg73>
-[2018-05-01 21:08:20,605]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg74/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg74>
-[2018-05-01 21:08:22,489]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg75/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg75>
-[2018-05-01 21:08:24,391]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg76/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg76>
-[2018-05-01 21:08:26,131]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg77/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg77>
-[2018-05-01 21:08:26,773]INFO | scrapy.extensions.logstats: Crawled 17608 pages (at 141 pages/min), scraped 13286 items (at 0 items/min)
-[2018-05-01 21:08:27,604]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg78/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg78>
-[2018-05-01 21:08:29,147]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg79/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg79>
-[2018-05-01 21:08:30,806]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg80/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg80>
-[2018-05-01 21:08:32,763]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg81/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg81>
-[2018-05-01 21:08:34,510]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg82/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg82>
-[2018-05-01 21:08:36,482]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg83/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg83>
-[2018-05-01 21:08:38,049]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg84/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg84>
-[2018-05-01 21:08:39,615]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg85/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg85>
-[2018-05-01 21:08:41,779]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg86/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg86>
-[2018-05-01 21:08:43,355]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg87/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg87>
-[2018-05-01 21:08:46,061]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg88/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg88>
-[2018-05-01 21:08:47,857]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg89/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg89>
-[2018-05-01 21:08:49,482]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg90/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg90>
-[2018-05-01 21:08:51,430]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg91/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg91>
-[2018-05-01 21:08:53,207]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg92/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg92>
-[2018-05-01 21:08:55,398]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg93/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg93>
-[2018-05-01 21:08:57,424]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg94/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg94>
-[2018-05-01 21:08:59,240]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg95/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg95>
-[2018-05-01 21:09:00,986]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg96/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg96>
-[2018-05-01 21:09:02,644]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg97/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg97>
-[2018-05-01 21:09:04,588]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg98/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg98>
-[2018-05-01 21:09:06,262]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg99/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg99>
-[2018-05-01 21:09:08,290]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/ie2/pg100/> from <GET https://nj.lianjia.com/ershoufang/ie2/pg100>
-[2018-05-01 21:09:26,773]INFO | scrapy.extensions.logstats: Crawled 17717 pages (at 109 pages/min), scraped 13286 items (at 0 items/min)
-[2018-05-01 21:10:02,486]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103101758165.html> (failed 1 times): User timeout caused connection failure: Getting https://nj.lianjia.com/ershoufang/103101758165.html took longer than 180.0 seconds..
-[2018-05-01 21:10:03,608]INFO | scrapy.statscollectors: Dumping Scrapy stats:
-{'downloader/exception_count': 26,
- 'downloader/exception_type_count/twisted.internet.error.TimeoutError': 26,
- 'downloader/request_bytes': 6626479,
- 'downloader/request_count': 18423,
- 'downloader/request_method_count/GET': 18423,
- 'downloader/response_bytes': 523315647,
- 'downloader/response_count': 18397,
- 'downloader/response_status_count/200': 17718,
- 'downloader/response_status_count/301': 676,
- 'downloader/response_status_count/302': 3,
- 'dupefilter/filtered': 2805,
- 'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2018, 5, 1, 13, 10, 3, 605000),
- 'item_scraped_count': 13286,
- 'log_count/DEBUG': 707,
- 'log_count/INFO': 92,
- 'request_depth_max': 100,
- 'response_received_count': 17718,
- 'retry/count': 26,
- 'retry/reason_count/twisted.internet.error.TimeoutError': 26,
- 'scheduler/dequeued': 18423,
- 'scheduler/dequeued/memory': 18423,
- 'scheduler/enqueued': 18423,
- 'scheduler/enqueued/memory': 18423,
- 'spider_exceptions/IndexError': 189,
- 'spider_exceptions/UnboundLocalError': 15,
- 'start_time': datetime.datetime(2018, 5, 1, 11, 25, 26, 776000)}
-[2018-05-01 21:17:15,418]INFO | scrapy.extensions.logstats: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-[2018-05-01 21:17:15,431]DEBUG | scrapy.extensions.telnet: Telnet console listening on 127.0.0.1:6023
-[2018-05-01 21:17:17,479]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/> from <GET http://nj.lianjia.com/ershoufang/jianye/ie1/>
-[2018-05-01 21:17:25,599]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/> from <GET http://nj.lianjia.com/ershoufang/jianye/ie2/>
-[2018-05-01 21:17:26,479]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/> from <GET http://nj.lianjia.com/ershoufang/yuhuatai/ie2/>
-[2018-05-01 21:17:26,641]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/> from <GET http://nj.lianjia.com/ershoufang/xuanwu/ie2/>
-[2018-05-01 21:17:26,874]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/> from <GET http://nj.lianjia.com/ershoufang/jiangning/ie1/>
-[2018-05-01 21:17:26,895]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie2/> from <GET http://nj.lianjia.com/ershoufang/qixia/ie2/>
-[2018-05-01 21:17:27,898]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/pukou/ie1/> from <GET http://nj.lianjia.com/ershoufang/pukou/ie1/>
-[2018-05-01 21:17:28,433]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/pukou/ie2/> from <GET http://nj.lianjia.com/ershoufang/pukou/ie2/>
-[2018-05-01 21:17:30,194]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/liuhe/ie1/> from <GET http://nj.lianjia.com/ershoufang/liuhe/ie1/>
-[2018-05-01 21:17:30,269]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/liuhe/ie2/> from <GET http://nj.lianjia.com/ershoufang/liuhe/ie2/>
-[2018-05-01 21:17:49,803]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/jianye/ie2/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-[2018-05-01 21:18:10,288]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/lishui/ie1/> from <GET http://nj.lianjia.com/ershoufang/lishui/ie1/>
-[2018-05-01 21:18:11,236]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg2/> from <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/pg2>
-[2018-05-01 21:18:11,963]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg2/> from <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg2>
-[2018-05-01 21:18:13,242]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/pukou/ie1/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-[2018-05-01 21:18:13,279]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET http://nj.lianjia.com/ershoufang/qinhuai/ie1/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-[2018-05-01 21:18:13,285]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/pg2/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-[2018-05-01 21:18:13,328]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET http://nj.lianjia.com/ershoufang/xuanwu/ie1/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-[2018-05-01 21:18:13,335]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103101591101.html> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-[2018-05-01 21:18:13,381]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET http://nj.lianjia.com/ershoufang/yuhuatai/ie1/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-[2018-05-01 21:18:13,388]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET http://nj.lianjia.com/ershoufang/qixia/ie1/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-[2018-05-01 21:18:13,394]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET http://nj.lianjia.com/ershoufang/jiangning/ie2/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-[2018-05-01 21:18:13,400]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET http://nj.lianjia.com/ershoufang/qinhuai/ie2/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-[2018-05-01 21:18:13,410]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/jianye/ie1/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-[2018-05-01 21:18:13,421]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103101771958.html> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-[2018-05-01 21:21:01,289]INFO | scrapy.extensions.logstats: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-[2018-05-01 21:21:01,299]DEBUG | scrapy.extensions.telnet: Telnet console listening on 127.0.0.1:6023
-[2018-05-01 21:21:01,733]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie2/> from <GET http://nj.lianjia.com/ershoufang/jianye/ie2/>
-[2018-05-01 21:21:01,767]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jianye/ie1/> from <GET http://nj.lianjia.com/ershoufang/jianye/ie1/>
-[2018-05-01 21:21:01,779]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie2/> from <GET http://nj.lianjia.com/ershoufang/yuhuatai/ie2/>
-[2018-05-01 21:21:01,783]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie1/> from <GET http://nj.lianjia.com/ershoufang/qinhuai/ie1/>
-[2018-05-01 21:21:01,790]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qinhuai/ie2/> from <GET http://nj.lianjia.com/ershoufang/qinhuai/ie2/>
-[2018-05-01 21:21:01,799]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie2/> from <GET http://nj.lianjia.com/ershoufang/xuanwu/ie2/>
-[2018-05-01 21:21:01,812]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/xuanwu/ie1/> from <GET http://nj.lianjia.com/ershoufang/xuanwu/ie1/>
-[2018-05-01 21:21:01,819]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/yuhuatai/ie1/> from <GET http://nj.lianjia.com/ershoufang/yuhuatai/ie1/>
-[2018-05-01 21:21:01,900]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie1/> from <GET http://nj.lianjia.com/ershoufang/qixia/ie1/>
-[2018-05-01 21:21:01,930]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/qixia/ie2/> from <GET http://nj.lianjia.com/ershoufang/qixia/ie2/>
-[2018-05-01 21:21:01,963]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie2/> from <GET http://nj.lianjia.com/ershoufang/jiangning/ie2/>
-[2018-05-01 21:21:01,990]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/> from <GET http://nj.lianjia.com/ershoufang/jiangning/ie1/>
-[2018-05-01 21:21:02,030]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/liuhe/ie1/> from <GET http://nj.lianjia.com/ershoufang/liuhe/ie1/>
-[2018-05-01 21:21:02,069]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/pukou/ie1/> from <GET http://nj.lianjia.com/ershoufang/pukou/ie1/>
-[2018-05-01 21:21:02,099]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/pukou/ie2/> from <GET http://nj.lianjia.com/ershoufang/pukou/ie2/>
-[2018-05-01 21:21:02,141]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/liuhe/ie2/> from <GET http://nj.lianjia.com/ershoufang/liuhe/ie2/>
-[2018-05-01 21:21:03,756]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/lishui/ie1/> from <GET http://nj.lianjia.com/ershoufang/lishui/ie1/>
-[2018-05-01 21:21:04,003]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/lishui/ie2/> from <GET http://nj.lianjia.com/ershoufang/lishui/ie2/>
-[2018-05-01 21:21:04,141]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/gaochun/ie1/> from <GET http://nj.lianjia.com/ershoufang/gaochun/ie1/>
-[2018-05-01 21:21:04,497]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/liuhe/ie1/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-[2018-05-01 21:21:04,512]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/qixia/ie1/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-[2018-05-01 21:21:04,517]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/jiangning/ie2/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-[2018-05-01 21:21:04,526]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103101984736.html> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-[2018-05-01 21:21:04,532]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/pukou/ie2/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-[2018-05-01 21:21:04,538]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/qixia/ie2/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-[2018-05-01 21:21:04,546]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103101799861.html> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-[2018-05-01 21:21:04,555]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/liuhe/ie2/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-[2018-05-01 21:21:04,566]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/pukou/ie1/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-[2018-05-01 21:21:04,588]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103101599679.html> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-[2018-05-01 21:21:04,594]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103102346769.html> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-[2018-05-01 21:21:04,601]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/lishui/ie1/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-[2018-05-01 21:21:04,607]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103102196829.html> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-[2018-05-01 21:21:04,621]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/jiangning/ie1/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-[2018-05-01 21:21:25,131]INFO | scrapy.statscollectors: Dumping Scrapy stats:
-{'finish_reason': 'shutdown',
- 'finish_time': datetime.datetime(2018, 5, 1, 13, 21, 25, 130000)}
-[2018-05-01 21:21:25,137]CRITICAL | twisted: Unhandled error in Deferred:
-[2018-05-01 21:21:25,138]CRITICAL | twisted: 
-Traceback (most recent call last):
-  File "d:\virtualenvs\envgit\env\lib\site-packages\twisted\internet\defer.py", line 1386, in _inlineCallbacks
-    result = g.send(result)
-  File "d:\virtualenvs\envgit\env\lib\site-packages\scrapy\crawler.py", line 98, in crawl
-    six.reraise(*exc_info)
-  File "d:\virtualenvs\envgit\env\lib\site-packages\scrapy\crawler.py", line 82, in crawl
-    yield self.engine.open_spider(self.spider, start_requests)
-ValueError: ("Failed to instantiate dupefilter class '%s': %s", 'scrapy.dupefilters.RFPDupeFilter', TypeError("__init__() got an unexpected keyword argument 'key'",))
-[2018-05-01 21:21:50,805]INFO | scrapy.statscollectors: Dumping Scrapy stats:
-{'finish_reason': 'shutdown',
- 'finish_time': datetime.datetime(2018, 5, 1, 13, 21, 50, 805000)}
-[2018-05-01 21:21:50,811]CRITICAL | twisted: Unhandled error in Deferred:
-[2018-05-01 21:21:50,815]CRITICAL | twisted: 
-Traceback (most recent call last):
-  File "d:\virtualenvs\envgit\env\lib\site-packages\twisted\internet\defer.py", line 1386, in _inlineCallbacks
-    result = g.send(result)
-  File "d:\virtualenvs\envgit\env\lib\site-packages\scrapy\crawler.py", line 98, in crawl
-    six.reraise(*exc_info)
-  File "d:\virtualenvs\envgit\env\lib\site-packages\scrapy\crawler.py", line 82, in crawl
-    yield self.engine.open_spider(self.spider, start_requests)
-ValueError: ("Failed to instantiate dupefilter class '%s': %s", 'scrapy.dupefilters.RFPDupeFilter', TypeError("__init__() got an unexpected keyword argument 'key'",))
-[2018-05-01 21:22:45,665]INFO | scrapy.statscollectors: Dumping Scrapy stats:
-{'finish_reason': 'shutdown',
- 'finish_time': datetime.datetime(2018, 5, 1, 13, 22, 45, 665000)}
-[2018-05-01 21:22:45,671]CRITICAL | twisted: Unhandled error in Deferred:
-[2018-05-01 21:22:45,680]CRITICAL | twisted: 
-Traceback (most recent call last):
-  File "d:\virtualenvs\envgit\env\lib\site-packages\twisted\internet\defer.py", line 1386, in _inlineCallbacks
-    result = g.send(result)
-  File "d:\virtualenvs\envgit\env\lib\site-packages\scrapy\crawler.py", line 98, in crawl
-    six.reraise(*exc_info)
-  File "d:\virtualenvs\envgit\env\lib\site-packages\scrapy\crawler.py", line 82, in crawl
-    yield self.engine.open_spider(self.spider, start_requests)
-ValueError: ("Failed to instantiate dupefilter class '%s': %s", 'scrapy.dupefilters.RFPDupeFilter', TypeError("__init__() got an unexpected keyword argument 'key'",))
-[2018-05-01 21:23:24,374]INFO | ershoufang: Reading start URLs from redis key 'myspider:start_urls' (batch size: 16, encoding: utf-8
-[2018-05-01 21:23:26,112]INFO | scrapy.statscollectors: Dumping Scrapy stats:
-{'finish_reason': 'shutdown',
- 'finish_time': datetime.datetime(2018, 5, 1, 13, 23, 26, 112000),
- 'log_count/INFO': 1}
-[2018-05-01 21:23:26,118]CRITICAL | twisted: Unhandled error in Deferred:
-[2018-05-01 21:23:26,121]CRITICAL | twisted: 
-Traceback (most recent call last):
-  File "d:\virtualenvs\envgit\env\lib\site-packages\twisted\internet\defer.py", line 1386, in _inlineCallbacks
-    result = g.send(result)
-  File "d:\virtualenvs\envgit\env\lib\site-packages\scrapy\crawler.py", line 98, in crawl
-    six.reraise(*exc_info)
-  File "d:\virtualenvs\envgit\env\lib\site-packages\scrapy\crawler.py", line 82, in crawl
-    yield self.engine.open_spider(self.spider, start_requests)
-ValueError: ("Failed to instantiate dupefilter class '%s': %s", 'scrapy.dupefilters.RFPDupeFilter', TypeError("__init__() got an unexpected keyword argument 'key'",))
-[2018-05-01 21:24:38,028]INFO | ershoufang: Reading start URLs from redis key 'myspider:start_urls' (batch size: 16, encoding: utf-8
-[2018-05-01 21:24:39,585]INFO | scrapy.statscollectors: Dumping Scrapy stats:
-{'finish_reason': 'shutdown',
- 'finish_time': datetime.datetime(2018, 5, 1, 13, 24, 39, 584000),
- 'log_count/INFO': 1}
-[2018-05-01 21:24:39,625]CRITICAL | twisted: Unhandled error in Deferred:
-[2018-05-01 21:24:39,631]CRITICAL | twisted: 
-Traceback (most recent call last):
-  File "d:\virtualenvs\envgit\env\lib\site-packages\twisted\internet\defer.py", line 1386, in _inlineCallbacks
-    result = g.send(result)
-  File "d:\virtualenvs\envgit\env\lib\site-packages\scrapy\crawler.py", line 98, in crawl
-    six.reraise(*exc_info)
-  File "d:\virtualenvs\envgit\env\lib\site-packages\scrapy\crawler.py", line 82, in crawl
-    yield self.engine.open_spider(self.spider, start_requests)
-ValueError: ("Failed to instantiate dupefilter class '%s': %s", 'scrapy.dupefilters.RFPDupeFilter', TypeError("__init__() got an unexpected keyword argument 'key'",))
-[2018-05-01 21:25:34,828]INFO | ershoufang: Reading start URLs from redis key 'myspider:start_urls' (batch size: 16, encoding: utf-8
-[2018-05-01 21:25:37,119]INFO | scrapy.statscollectors: Dumping Scrapy stats:
-{'finish_reason': 'shutdown',
- 'finish_time': datetime.datetime(2018, 5, 1, 13, 25, 37, 118000),
- 'log_count/INFO': 1}
-[2018-05-01 21:25:37,125]CRITICAL | twisted: Unhandled error in Deferred:
-[2018-05-01 21:25:37,130]CRITICAL | twisted: 
-Traceback (most recent call last):
-  File "d:\virtualenvs\envgit\env\lib\site-packages\twisted\internet\defer.py", line 1386, in _inlineCallbacks
-    result = g.send(result)
-  File "d:\virtualenvs\envgit\env\lib\site-packages\scrapy\crawler.py", line 98, in crawl
-    six.reraise(*exc_info)
-  File "d:\virtualenvs\envgit\env\lib\site-packages\scrapy\crawler.py", line 82, in crawl
-    yield self.engine.open_spider(self.spider, start_requests)
-ValueError: ("Failed to instantiate dupefilter class '%s': %s", 'scrapy.dupefilters.RFPDupeFilter', TypeError("__init__() got an unexpected keyword argument 'key'",))
-[2018-05-01 21:28:17,766]INFO | ershoufang: Reading start URLs from redis key 'myspider:start_urls' (batch size: 16, encoding: utf-8
-[2018-05-01 21:28:19,674]INFO | scrapy.statscollectors: Dumping Scrapy stats:
-{'finish_reason': 'shutdown',
- 'finish_time': datetime.datetime(2018, 5, 1, 13, 28, 19, 674000),
- 'log_count/INFO': 1}
-[2018-05-01 21:28:19,703]CRITICAL | twisted: Unhandled error in Deferred:
-[2018-05-01 21:28:19,706]CRITICAL | twisted: 
-Traceback (most recent call last):
-  File "d:\virtualenvs\envgit\env\lib\site-packages\twisted\internet\defer.py", line 1386, in _inlineCallbacks
-    result = g.send(result)
-  File "d:\virtualenvs\envgit\env\lib\site-packages\scrapy\crawler.py", line 98, in crawl
-    six.reraise(*exc_info)
-  File "d:\virtualenvs\envgit\env\lib\site-packages\scrapy\crawler.py", line 82, in crawl
-    yield self.engine.open_spider(self.spider, start_requests)
-ValueError: ("Failed to instantiate dupefilter class '%s': %s", 'scrapy.dupefilters.RFPDupeFilter', TypeError("__init__() got an unexpected keyword argument 'key'",))
-[2018-05-01 21:29:25,931]INFO | ershoufang: Reading start URLs from redis key 'myspider:start_urls' (batch size: 16, encoding: utf-8
-[2018-05-01 21:29:27,812]INFO | scrapy.statscollectors: Dumping Scrapy stats:
-{'finish_reason': 'shutdown',
- 'finish_time': datetime.datetime(2018, 5, 1, 13, 29, 27, 812000),
- 'log_count/INFO': 1}
-[2018-05-01 21:29:27,816]CRITICAL | twisted: Unhandled error in Deferred:
-[2018-05-01 21:29:27,819]CRITICAL | twisted: 
-Traceback (most recent call last):
-  File "d:\virtualenvs\envgit\env\lib\site-packages\twisted\internet\defer.py", line 1386, in _inlineCallbacks
-    result = g.send(result)
-  File "d:\virtualenvs\envgit\env\lib\site-packages\scrapy\crawler.py", line 98, in crawl
-    six.reraise(*exc_info)
-  File "d:\virtualenvs\envgit\env\lib\site-packages\scrapy\crawler.py", line 82, in crawl
-    yield self.engine.open_spider(self.spider, start_requests)
-ValueError: ("Failed to instantiate dupefilter class '%s': %s", 'scrapy.dupefilters.RFPDupeFilter', TypeError("__init__() got an unexpected keyword argument 'key'",))
-[2018-05-01 21:30:53,040]INFO | ershoufang: Reading start URLs from redis key 'myspider:start_urls' (batch size: 16, encoding: utf-8
-[2018-05-01 21:30:54,730]INFO | scrapy.statscollectors: Dumping Scrapy stats:
-{'finish_reason': 'shutdown',
- 'finish_time': datetime.datetime(2018, 5, 1, 13, 30, 54, 730000),
- 'log_count/INFO': 1}
-[2018-05-01 21:30:54,736]CRITICAL | twisted: Unhandled error in Deferred:
-[2018-05-01 21:30:54,740]CRITICAL | twisted: 
-Traceback (most recent call last):
-  File "d:\virtualenvs\envgit\env\lib\site-packages\twisted\internet\defer.py", line 1386, in _inlineCallbacks
-    result = g.send(result)
-  File "d:\virtualenvs\envgit\env\lib\site-packages\scrapy\crawler.py", line 98, in crawl
-    six.reraise(*exc_info)
-  File "d:\virtualenvs\envgit\env\lib\site-packages\scrapy\crawler.py", line 82, in crawl
-    yield self.engine.open_spider(self.spider, start_requests)
-ValueError: ("Failed to instantiate dupefilter class '%s': %s", 'scrapy.dupefilters.RFPDupeFilter', TypeError("__init__() got an unexpected keyword argument 'key'",))
-[2018-05-01 21:33:05,803]INFO | ershoufang: Reading start URLs from redis key 'myspider:start_urls' (batch size: 16, encoding: utf-8
-[2018-05-01 21:33:07,144]INFO | scrapy.extensions.logstats: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-[2018-05-01 21:33:07,151]DEBUG | scrapy.extensions.telnet: Telnet console listening on 127.0.0.1:6023
-[2018-05-01 21:34:07,144]INFO | scrapy.extensions.logstats: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-[2018-05-01 21:35:07,145]INFO | scrapy.extensions.logstats: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-[2018-05-01 21:35:27,170]DEBUG | ershoufang: Read 1 requests from 'myspider:start_urls'
-[2018-05-01 21:35:27,535]DEBUG | scrapy.downloadermiddlewares.redirect: Redirecting (301) to <GET https://nj.lianjia.com/ershoufang/> from <GET http://nj.lianjia.com/ershoufang/>
-[2018-05-01 21:35:28,342]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103102277228.html
-[2018-05-01 21:35:28,456]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103102274766.html
-[2018-05-01 21:35:28,549]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103102175190.html
-[2018-05-01 21:35:28,631]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103102155428.html
-[2018-05-01 21:35:28,762]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103102227568.html
-[2018-05-01 21:35:28,834]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103101912868.html
-[2018-05-01 21:35:29,092]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103101866720.html
-[2018-05-01 21:35:29,174]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103101984736.html
-[2018-05-01 21:35:29,279]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103102236204.html
-[2018-05-01 21:35:29,335]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103102334551.html
-[2018-05-01 21:35:29,418]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103102223365.html
-[2018-05-01 21:35:29,476]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103102175045.html
-[2018-05-01 21:35:29,519]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103102140702.html
-[2018-05-01 21:35:29,588]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103102279224.html
-[2018-05-01 21:35:29,631]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103102041342.html
-[2018-05-01 21:35:29,674]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103101993774.html
-[2018-05-01 21:35:29,694]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103101890892.html
-[2018-05-01 21:35:29,713]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103102175171.html
-[2018-05-01 21:35:29,733]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103102085490.html
-[2018-05-01 21:35:29,750]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103102290488.html
-[2018-05-01 21:35:29,769]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103101599679.html
-[2018-05-01 21:35:29,782]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103101358042.html
-[2018-05-01 21:35:29,796]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103102150281.html
-[2018-05-01 21:35:29,815]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103100884530.html
-[2018-05-01 21:35:29,849]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103102196829.html
-[2018-05-01 21:35:29,880]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103102206345.html
-[2018-05-01 21:35:29,894]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103101921708.html
-[2018-05-01 21:35:29,921]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103102107871.html
-[2018-05-01 21:35:29,943]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103102199583.html
-[2018-05-01 21:35:29,960]DEBUG | ershoufang: ------the url is https://nj.lianjia.com/ershoufang/103102242660.html
-[2018-05-01 21:35:29,973]INFO | ershoufang: ****************fuck01******************
-[2018-05-01 21:35:29,982]INFO | ershoufang: ****************fuck02******************
-[2018-05-01 21:35:29,984]INFO | ershoufang: ****************100****1****1**********
-[2018-05-01 21:35:29,986]INFO | ershoufang: ****************fuck03******************
-[2018-05-01 21:36:07,144]INFO | scrapy.extensions.logstats: Crawled 31 pages (at 31 pages/min), scraped 30 items (at 30 items/min)
-[2018-05-01 21:37:07,144]INFO | scrapy.extensions.logstats: Crawled 31 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
-[2018-05-01 21:38:07,145]INFO | scrapy.extensions.logstats: Crawled 31 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
-[2018-05-01 21:39:07,144]INFO | scrapy.extensions.logstats: Crawled 31 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
-[2018-05-01 21:40:07,144]INFO | scrapy.extensions.logstats: Crawled 31 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
-[2018-05-01 21:41:07,144]INFO | scrapy.extensions.logstats: Crawled 31 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
-[2018-05-01 21:42:07,145]INFO | scrapy.extensions.logstats: Crawled 31 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
-[2018-05-01 21:43:07,144]INFO | scrapy.extensions.logstats: Crawled 31 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
-[2018-05-01 21:44:07,144]INFO | scrapy.extensions.logstats: Crawled 31 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
-[2018-05-01 21:45:07,144]INFO | scrapy.extensions.logstats: Crawled 31 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
-[2018-05-01 21:46:07,144]INFO | scrapy.extensions.logstats: Crawled 31 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
-[2018-05-01 21:47:07,148]INFO | scrapy.extensions.logstats: Crawled 31 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
-[2018-05-01 21:48:07,144]INFO | scrapy.extensions.logstats: Crawled 31 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
-[2018-05-01 21:49:07,144]INFO | scrapy.extensions.logstats: Crawled 31 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
-[2018-05-01 21:50:07,145]INFO | scrapy.extensions.logstats: Crawled 31 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
-[2018-05-01 21:51:07,144]INFO | scrapy.extensions.logstats: Crawled 31 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
-[2018-05-01 21:52:07,144]INFO | scrapy.extensions.logstats: Crawled 31 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
-[2018-05-01 21:53:02,153]INFO | scrapy.statscollectors: Dumping Scrapy stats:
-{'downloader/request_bytes': 10938,
- 'downloader/request_count': 32,
- 'downloader/request_method_count/GET': 32,
- 'downloader/response_bytes': 941119,
- 'downloader/response_count': 32,
- 'downloader/response_status_count/200': 31,
- 'downloader/response_status_count/301': 1,
- 'finish_reason': 'shutdown',
- 'finish_time': datetime.datetime(2018, 5, 1, 13, 53, 2, 150000),
- 'item_scraped_count': 30,
- 'log_count/DEBUG': 33,
- 'log_count/INFO': 25,
- 'request_depth_max': 1,
- 'response_received_count': 31,
- 'scheduler/dequeued/redis': 32,
- 'scheduler/enqueued/redis': 32,
- 'spider_exceptions/AttributeError': 1,
- 'start_time': datetime.datetime(2018, 5, 1, 13, 33, 7, 147000)}
-[2018-05-01 21:55:51,415]INFO | ershoufang: Reading start URLs from redis key 'myspider:start_urls' (batch size: 16, encoding: utf-8
-[2018-05-01 21:55:53,269]INFO | scrapy.extensions.logstats: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-[2018-05-01 21:55:53,276]DEBUG | scrapy.extensions.telnet: Telnet console listening on 127.0.0.1:6023
-[2018-05-01 21:56:53,269]INFO | scrapy.extensions.logstats: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-[2018-05-01 21:57:53,269]INFO | scrapy.extensions.logstats: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-[2018-05-01 21:58:53,270]INFO | scrapy.extensions.logstats: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-[2018-05-01 21:59:53,269]INFO | scrapy.extensions.logstats: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-[2018-05-01 22:00:53,269]INFO | scrapy.extensions.logstats: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-[2018-05-01 22:01:53,269]INFO | scrapy.extensions.logstats: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-[2018-05-01 22:02:53,269]INFO | scrapy.extensions.logstats: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+[2018-05-07 22:33:18,664]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:18,900]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:18,974]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:19,058]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:19,170]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:19,267]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:19,345]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:19,447]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:19,834]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:20,000]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:20,188]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:20,279]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:20,415]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:20,477]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:20,548]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:20,591]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:20,769]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:20,862]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:21,203]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:21,286]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:21,496]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:21,565]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:21,661]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:21,785]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:21,858]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:21,993]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:22,243]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:22,463]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:22,680]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:22,767]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:22,913]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:23,108]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:23,400]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:23,460]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:23,535]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:23,815]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:24,016]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:24,273]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:24,335]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:24,536]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:24,688]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:24,880]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:24,944]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:25,000]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:25,045]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:25,177]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:25,280]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:25,858]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:25,973]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:26,023]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:26,137]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:26,191]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:26,301]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:26,381]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:26,443]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:27,046]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:27,111]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:27,312]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:27,473]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:27,966]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:28,282]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:28,460]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:28,769]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:29,157]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:29,959]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:30,177]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:30,302]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:30,391]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:30,812]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:30,911]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:31,391]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:31,604]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:31,769]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:31,913]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:31,973]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:32,036]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:32,177]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:32,282]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:32,401]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103101943061.html> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+[2018-05-07 22:33:32,434]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103101920100.html> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+[2018-05-07 22:33:32,464]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103101901413.html> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+[2018-05-07 22:33:32,489]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103101924345.html> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+[2018-05-07 22:33:32,513]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103101933800.html> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+[2018-05-07 22:33:32,640]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103101900594.html> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+[2018-05-07 22:33:32,671]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103101913832.html> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+[2018-05-07 22:33:32,680]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103101863381.html> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+[2018-05-07 22:33:36,282]INFO | ershoufang: Reading start URLs from redis key 'myspider:start_urls' (batch size: 16, encoding: utf-8
+[2018-05-07 22:33:37,157]DEBUG | ershoufang: Resuming crawl (3337 requests scheduled)
+[2018-05-07 22:33:37,157]INFO | scrapy.extensions.logstats: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+[2018-05-07 22:33:37,161]DEBUG | scrapy.extensions.telnet: Telnet console listening on 127.0.0.1:6023
+[2018-05-07 22:33:39,282]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:39,631]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:39,858]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:39,954]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:40,046]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:40,367]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:40,453]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:40,568]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:41,329]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:41,983]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:42,585]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:42,769]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:42,895]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:42,974]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:43,105]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:43,295]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:43,391]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:43,470]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:43,555]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:43,627]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:43,710]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:43,798]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:43,934]INFO | ershoufang: #################################################################################parse_2 method running#################
+[2018-05-07 22:33:44,051]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103102062817.html> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+[2018-05-07 22:33:44,085]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103102080503.html> (failed 1 times): An error occurred while connecting: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+].
+[2018-05-07 22:33:44,124]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103102041898.html> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+[2018-05-07 22:33:44,167]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103102071886.html> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+[2018-05-07 22:33:44,210]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103102075995.html> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+[2018-05-07 22:33:44,249]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103102059423.html> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+[2018-05-07 22:33:44,293]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103102039761.html> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+[2018-05-07 22:33:44,335]DEBUG | scrapy.downloadermiddlewares.retry: Retrying <GET https://nj.lianjia.com/ershoufang/103102059606.html> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
