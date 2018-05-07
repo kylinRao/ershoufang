@@ -17,7 +17,7 @@ class ErshoufangPipeline(object):
     logger = logControl.getLogger()
     c = conn.cursor();
 
-    # sqlHouseBaseInfo = u"replace into houseBaseInfo (houseCode,url,visited,region,area,attention,sourceId) values ('{houseCode}','{url}','{visited}','{region}','{area}','{attention}','{sourceId}')";
+    sqlHouseBaseInfo = u"replace into houseBaseInfo (houseCode,url,visited,region,area,attention,sourceId) values ('{houseCode}','{url}','{visited}','{region}','{area}','{attention}','{sourceId}')";
     sqlHouseEveryDayPrice = u"replace into houseEveryDayPrice (houseCode,updateDay,totalPrice,unitPrice,updateTime) values ('{houseCode}','{date}','{totalPrice}','{unitPrice}','{updateTime}')";
     sqlHouseDetailInfo = u"replace into houseDetailInfo (houseCode,updateDay,houseNumType,houseHeight,houseBigSquare,houseInnerSquare,houseStuctType,houseDirctionType,houseStuctMaterialType,houseDecrateType,houseIsWithLift,houseRightYear,tradeOnlineTime,tradeRightType,tradeLastTime,tradeUseType,tradeLostTime,tradeHouseRightOwnType,tradeGurantyMsg,tradeHouseBookMsg) values ('{houseId}','{date}','{houseNumType}','{houseHeight}','{houseBigSquare}','{houseInnerSquare}','{houseStuctType}','{houseDirctionType}','{houseStuctMaterialType}','{houseDecrateType}','{houseIsWithLift}','{houseRightYear}','{tradeOnlineTime}','{tradeRightType}','{tradeLastTime}','{tradeUseType}','{tradeLostTime}','{tradeHouseRightOwnType}','{tradeGurantyMsg}','{tradeHouseBookMsg}')"
 
@@ -29,15 +29,15 @@ class ErshoufangPipeline(object):
 
 
         self.logger.info("#############preparing sql statements###############")
-        # sqlHouseBaseInfoF = sqlHouseBaseInfo.format(houseCode=item['houseCode'],
-        #
-        #                                             url=item['url'],
-        #                                             visited=item['visited'],
-        #                                             region=item['region'],
-        #                                             area=item['area'],
-        #                                             attention=item['attention'],
-        #                                             sourceId=item['sourceId']
-        #                                             )
+        sqlHouseBaseInfoF = self.sqlHouseBaseInfo.format(houseCode=item['houseCode'],
+
+                                                    url=item['url'],
+                                                    visited=item['visited'],
+                                                    region=item['region'],
+                                                    area=item['area'],
+                                                    attention=item['attention'],
+                                                    sourceId=item['sourceId']
+                                                    )
         sqlHouseEveryDayPriceF = self.sqlHouseEveryDayPrice.format(houseCode=item['houseCode'],
                                                               date=datetime.now().date(),
                                                               totalPrice=item['totalPrice'],
@@ -67,7 +67,7 @@ class ErshoufangPipeline(object):
         self.logger.info(sqlHouseDetailInfoF)
         try:
             self.c.execute(sqlHouseEveryDayPriceF)
-            # c.execute(sqlHouseBaseInfoF)
+            self.c.execute(sqlHouseBaseInfoF)
             self.c.execute(sqlHouseDetailInfoF)
 
             self.conn.commit();
