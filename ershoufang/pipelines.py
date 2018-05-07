@@ -17,7 +17,7 @@ class ErshoufangPipeline(object):
     logger = logControl.getLogger()
     c = conn.cursor();
 
-    sqlHouseBaseInfo = u"replace into houseBaseInfo (houseCode,url,visited,region,area,attention,sourceId) values ('{houseCode}','{url}','{visited}','{region}','{area}','{attention}','{sourceId}')";
+    sqlHouseBaseInfo = u"replace into houseBaseInfo (houseCode,url,visited,region,area,attention,sourceId) values ('{houseCode}','{url}','{visited}','{region}','{area}','{attention}','{sourceId}') ";
     sqlHouseEveryDayPrice = u"replace into houseEveryDayPrice (houseCode,updateDay,totalPrice,unitPrice,updateTime) values ('{houseCode}','{date}','{totalPrice}','{unitPrice}','{updateTime}')";
     sqlHouseDetailInfo = u"replace into houseDetailInfo (houseCode,updateDay,houseNumType,houseHeight,houseBigSquare,houseInnerSquare,houseStuctType,houseDirctionType,houseStuctMaterialType,houseDecrateType,houseIsWithLift,houseRightYear,tradeOnlineTime,tradeRightType,tradeLastTime,tradeUseType,tradeLostTime,tradeHouseRightOwnType,tradeGurantyMsg,tradeHouseBookMsg) values ('{houseId}','{date}','{houseNumType}','{houseHeight}','{houseBigSquare}','{houseInnerSquare}','{houseStuctType}','{houseDirctionType}','{houseStuctMaterialType}','{houseDecrateType}','{houseIsWithLift}','{houseRightYear}','{tradeOnlineTime}','{tradeRightType}','{tradeLastTime}','{tradeUseType}','{tradeLostTime}','{tradeHouseRightOwnType}','{tradeGurantyMsg}','{tradeHouseBookMsg}')"
 
