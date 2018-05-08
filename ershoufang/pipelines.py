@@ -10,9 +10,11 @@ import sqlite3
 from datetime import datetime
 from conf.logControl import logControl
 from db.dbInit import DBUTIl
+from db.dbConnection import Mysql
 
 
 class ErshoufangPipeline(object):
+    dbObject = Mysql()
     conn = DBUTIl.getDBConn()
     logger = logControl.getLogger()
     c = conn.cursor();
@@ -66,14 +68,19 @@ class ErshoufangPipeline(object):
         # print(sqlHouseBaseInfoF)
         self.logger.info(sqlHouseDetailInfoF)
         try:
-            self.c.execute(sqlHouseEveryDayPriceF)
-            self.c.execute(sqlHouseBaseInfoF)
-            self.c.execute(sqlHouseDetailInfoF)
+            # self.c.execute(sqlHouseEveryDayPriceF)
+            # self.c.execute(sqlHouseBaseInfoF)
+            # self.c.execute(sqlHouseDetailInfoF)
+            self.dbObject.insertOne(sqlHouseEveryDayPriceF)
+            self.dbObject.insertOne(sqlHouseBaseInfoF)
+            self.dbObject.insertOne(sqlHouseDetailInfoF)
+            self.dbObject.end()
+            self.logger.info("**********************inset into sql ok********************")
 
-            self.conn.commit();
+            # self.conn.commit();
         except Exception as e:
             self.logger.exception(e)
 
 
-        self.logger.info("**********************inset into sql ok********************")
+
         return item
